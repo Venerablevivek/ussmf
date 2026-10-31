@@ -1,0 +1,2077 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>U.S.S.M.F. Air Sports Medicine</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="The United States Sports Medicine Federation protects air-sports athletes with evidence-based medical review, injury prevention, rehabilitation and an official Medical Fitness Certificate.">
+<meta property="og:title" content="U.S.S.M.F. — Fit to Fly. Certified by Science.">
+<meta property="og:description" content="Apply for the U.S.S.M.F. Air Sports Medical Fitness Certificate, track your review and verify certificates online.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ussmf.org/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap">
+<style>
+/* Layout concept: "Clay Sky" — soft molded objects floating in a bright sky; wide airy flow, one orchestrated hero scene, flight paths as the connecting motif. */
+:root{
+  --sky:#F5F9FF; --sky-2:#EAF3FF; --peach:#FFF1EC; --white:#FFFFFF;
+  --ink:#0F1B3D; --ink-2:#4B5878; --ink-3:#7A86A3; --line:#DCE6F7;
+  --blue:#3B82F6; --blue-2:#60A5FA; --blue-d:#2563EB;
+  --coral:#FF7A6B; --coral-d:#E04E3C;
+  --mint:#34D399; --mint-d:#0E9F6E;
+  --sun:#FFC857; --sun-d:#B7791F;
+  --lav:#A78BFA; --lav-d:#7C5CE0;
+  --blue-t:#E4EEFF; --coral-t:#FFE8E4; --mint-t:#DCF7EC; --sun-t:#FFF3D3; --lav-t:#EFE9FF;
+  --f-display:"Sora","Plus Jakarta Sans",system-ui,sans-serif;
+  --f-body:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --r-xl:40px; --r-lg:32px; --r-md:26px; --r-sm:18px;
+  --spring:cubic-bezier(.34,1.56,.64,1);
+  --ease:cubic-bezier(.22,1,.36,1);
+  color-scheme:light;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:110px;overflow-x:clip}
+body{background:var(--sky);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--sky)}
+img{max-width:100%;display:block}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer;border:0;background:none}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px;border-radius:12px}
+h1,h2,h3,h4{font-family:var(--f-display);line-height:1.08;margin:0;text-wrap:balance;letter-spacing:-.025em}
+p{margin:0}
+.wrap{max-width:1240px;margin-inline:auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+[hidden]{display:none!important}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- Clay system ---------- */
+.clay{--sh:52,92,170;background:var(--white);border-radius:var(--r-lg);box-shadow:18px 22px 44px rgba(var(--sh),.15),4px 6px 12px rgba(var(--sh),.06),inset -7px -8px 16px rgba(15,27,61,.05),inset 7px 8px 16px rgba(255,255,255,.95)}
+.clay-sm{--sh:52,92,170;background:var(--white);border-radius:var(--r-sm);box-shadow:10px 12px 24px rgba(var(--sh),.15),inset -4px -5px 10px rgba(15,27,61,.06),inset 4px 5px 10px rgba(255,255,255,.95)}
+.t-blue{--sh:59,130,246;--tone:var(--blue);--tone-d:var(--blue-d);--tone-t:var(--blue-t)}
+.t-coral{--sh:255,122,107;--tone:var(--coral);--tone-d:var(--coral-d);--tone-t:var(--coral-t)}
+.t-mint{--sh:52,211,153;--tone:var(--mint);--tone-d:var(--mint-d);--tone-t:var(--mint-t)}
+.t-sun{--sh:230,170,50;--tone:var(--sun);--tone-d:var(--sun-d);--tone-t:var(--sun-t)}
+.t-lav{--sh:167,139,250;--tone:var(--lav);--tone-d:var(--lav-d);--tone-t:var(--lav-t)}
+.glass{background:rgba(255,255,255,.62);-webkit-backdrop-filter:blur(14px) saturate(1.4);backdrop-filter:blur(14px) saturate(1.4);border:1px solid rgba(255,255,255,.95);box-shadow:12px 16px 36px rgba(52,92,170,.14)}
+.ico{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.bubble{width:58px;height:58px;border-radius:20px;display:grid;place-items:center;flex:none;color:var(--tone-d,var(--blue-d));
+  background:radial-gradient(120% 120% at 25% 20%,#fff 0%,var(--tone-t,var(--blue-t)) 55%,color-mix(in srgb,var(--tone,var(--blue)) 30%,var(--tone-t,var(--blue-t))) 100%);
+  box-shadow:8px 10px 20px rgba(var(--sh,52,92,170),.25),inset -4px -5px 10px rgba(var(--sh,52,92,170),.22),inset 4px 5px 10px rgba(255,255,255,.95)}
+.bubble .ico{width:28px;height:28px;stroke-width:2}
+.bubble.lg{width:76px;height:76px;border-radius:26px}
+.bubble.lg .ico{width:36px;height:36px}
+
+/* ---------- Buttons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:0 26px;border-radius:999px;font-weight:700;font-size:15.5px;letter-spacing:.005em;transition:transform .35s var(--spring),box-shadow .3s var(--ease),background .3s;white-space:nowrap;user-select:none}
+.btn .ico{width:20px;height:20px;transition:transform .35s var(--spring)}
+.btn:hover .ico.arrow{transform:translateX(5px)}
+.btn-primary{color:#fff;background:linear-gradient(180deg,#6AA6FF 0%,#3B82F6 60%,#2F74E8 100%);box-shadow:10px 14px 28px rgba(59,130,246,.38),inset -4px -6px 10px rgba(18,58,160,.35),inset 4px 6px 10px rgba(255,255,255,.42)}
+.btn-primary:hover{transform:translateY(-3px)}
+.btn-primary:active{transform:translateY(1px) scale(.97);box-shadow:3px 4px 10px rgba(59,130,246,.3),inset 6px 8px 14px rgba(18,58,160,.45),inset -2px -3px 6px rgba(255,255,255,.25)}
+.btn-glass{color:var(--ink);background:rgba(255,255,255,.7);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border:1px solid #fff;box-shadow:8px 10px 24px rgba(52,92,170,.14),inset -3px -4px 8px rgba(15,27,61,.05)}
+.btn-glass:hover{transform:translateY(-3px)}
+.btn-glass:active{transform:translateY(1px) scale(.97);box-shadow:inset 5px 6px 12px rgba(52,92,170,.18)}
+.btn-mint{color:#fff;background:linear-gradient(180deg,#5BE3B0,#22B884);box-shadow:10px 14px 26px rgba(16,185,129,.35),inset -4px -6px 10px rgba(6,110,74,.3),inset 4px 6px 10px rgba(255,255,255,.4)}
+.btn-mint:hover{transform:translateY(-3px)}
+.btn-mint:active{transform:scale(.97)}
+.btn-sm{min-height:44px;padding:0 18px;font-size:14px}
+.btn[disabled]{opacity:.5;pointer-events:none}
+.link-btn{display:inline-flex;align-items:center;gap:6px;font-weight:700;color:var(--blue-d);font-size:14.5px}
+.link-btn .ico{width:18px;height:18px;transition:transform .3s var(--spring)}
+.link-btn:hover .ico{transform:translateX(4px)}
+
+/* ---------- Pills / labels ---------- */
+.pill{display:inline-flex;align-items:center;gap:10px;padding:9px 16px 9px 12px;border-radius:999px;font-size:13px;font-weight:700;letter-spacing:.02em;color:var(--ink);background:var(--white);box-shadow:6px 8px 18px rgba(52,92,170,.14),inset -3px -3px 7px rgba(15,27,61,.05),inset 3px 3px 7px #fff}
+.pill .dot{width:9px;height:9px;border-radius:50%;background:var(--mint);box-shadow:0 0 0 0 rgba(52,211,153,.6);animation:pulse 2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(52,211,153,.55)}70%{box-shadow:0 0 0 10px rgba(52,211,153,0)}100%{box-shadow:0 0 0 0 rgba(52,211,153,0)}}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--tone-d,var(--blue-d));padding:8px 14px;border-radius:999px;background:var(--tone-t,var(--blue-t));box-shadow:inset 2px 2px 5px rgba(255,255,255,.9),inset -2px -2px 5px rgba(var(--sh,52,92,170),.12)}
+.tag{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;padding:5px 11px;border-radius:999px;background:var(--tone-t,var(--blue-t));color:var(--tone-d,var(--blue-d))}
+.demo-tag{font-family:var(--f-mono);font-size:10.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--sun-d);background:var(--sun-t);padding:3px 8px;border-radius:6px}
+
+/* ---------- Section scaffolding ---------- */
+section{position:relative;overflow-x:clip}
+.sec{padding-block:clamp(72px,10vw,128px)}
+.sec-head{display:grid;gap:18px;max-width:760px;margin-bottom:clamp(36px,5vw,60px)}
+.sec-head.center{margin-inline:auto;text-align:center;justify-items:center}
+.h2{font-size:clamp(34px,4.7vw,58px);font-weight:800}
+.h2 .grad{background:linear-gradient(90deg,var(--blue),var(--lav) 55%,var(--coral));-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{font-size:clamp(16px,1.4vw,18.5px);color:var(--ink-2);max-width:62ch}
+.blob{position:absolute;border-radius:50%;filter:blur(60px);opacity:.55;pointer-events:none;z-index:0}
+.sec>.wrap{position:relative;z-index:1}
+
+/* ---------- Reveal ---------- */
+html.js .rv.pre{opacity:0;transform:translateY(34px) scale(.94)}
+html.js .rv.in{opacity:1;transform:none;transition:opacity .7s var(--ease),transform .9s var(--spring);transition-delay:var(--d,0s)}
+
+/* ---------- Header / nav ---------- */
+.site-header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;padding-top:14px;pointer-events:none}
+.nav{pointer-events:auto;display:flex;align-items:center;gap:12px;justify-content:space-between;padding:10px 10px 10px 14px;border-radius:999px;transition:padding .35s var(--ease),box-shadow .35s}
+.site-header.shrink .nav{padding-block:6px;box-shadow:12px 18px 40px rgba(52,92,170,.2)}
+.brand{display:flex;align-items:center;gap:10px;font-family:var(--f-display);font-weight:800;font-size:17px;letter-spacing:-.01em}
+.brand small{display:block;font-family:var(--f-body);font-weight:600;font-size:11px;color:var(--ink-3);letter-spacing:.02em;margin-top:-2px}
+.logo-slot{position:relative;width:42px;height:42px;border-radius:50%;flex:none;box-shadow:4px 6px 12px rgba(52,92,170,.22)}
+.logo-slot svg,.logo-slot img{position:absolute;inset:0;width:100%;height:100%;border-radius:50%;object-fit:cover}
+.nav-links{display:flex;gap:2px;list-style:none;margin:0;padding:0}
+.nav-links a{display:block;padding:10px 14px;border-radius:999px;font-weight:600;font-size:14.5px;color:var(--ink-2);transition:background .25s,color .25s}
+.nav-links a:hover{color:var(--ink);background:var(--sky-2)}
+.nav-links a.active{color:var(--blue-d);background:var(--blue-t);box-shadow:inset 2px 2px 5px rgba(59,130,246,.18),inset -2px -2px 5px #fff}
+.nav-cta{display:flex;align-items:center;gap:6px}
+.nav-cta .verify{font-weight:700;font-size:14.5px;padding:10px 14px;border-radius:999px;color:var(--ink-2)}
+.nav-cta .verify:hover{color:var(--ink);background:var(--sky-2)}
+.burger{display:none;width:46px;height:46px;border-radius:50%;place-items:center;background:var(--sky-2);box-shadow:inset 3px 3px 6px #fff,inset -3px -3px 6px rgba(52,92,170,.15)}
+.mnav{position:fixed;inset:0;z-index:80;background:rgba(245,249,255,.92);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);padding:calc(env(safe-area-inset-top,0px) + 20px) max(20px,env(safe-area-inset-right,0px)) 30px max(20px,env(safe-area-inset-left,0px));display:flex;flex-direction:column;gap:14px;overflow:auto}
+.mnav-top{display:flex;justify-content:space-between;align-items:center}
+.mnav a.ml{display:flex;justify-content:space-between;align-items:center;padding:18px 22px;font-family:var(--f-display);font-weight:700;font-size:22px;opacity:0;transform:translateY(16px);animation:mlin .55s var(--spring) forwards;animation-delay:calc(var(--i)*55ms)}
+@keyframes mlin{to{opacity:1;transform:none}}
+@media (max-width:1080px){.nav-links,.nav-cta .verify{display:none}.burger{display:grid}}
+@media (max-width:520px){.nav-cta .btn{display:none}.brand small{display:none}}
+
+/* ---------- HERO ---------- */
+.hero{position:relative;overflow:hidden;margin-top:-84px;padding-top:120px;padding-bottom:clamp(56px,7vw,96px);background:linear-gradient(180deg,#E6F0FF 0%,#F0F6FF 45%,#FFF1EC 100%)}
+.hero-sky{position:absolute;inset:0;pointer-events:none;z-index:0}
+.sunglow{position:absolute;right:-8%;top:-12%;width:58vw;max-width:780px;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,rgba(255,200,87,.45),rgba(255,200,87,0) 62%)}
+.lavglow{position:absolute;left:-14%;bottom:-24%;width:52vw;max-width:700px;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,rgba(167,139,250,.28),rgba(167,139,250,0) 62%)}
+.cloud{position:absolute;width:var(--w,180px);height:calc(var(--w,180px)*.36);border-radius:999px;background:linear-gradient(180deg,#fff 0%,#F2F7FF 100%);box-shadow:12px 18px 34px rgba(80,120,200,.14),inset -6px -8px 14px rgba(120,150,210,.16),inset 6px 6px 12px #fff;opacity:var(--o,1);
+  transform:translate3d(calc(var(--mx,0)*var(--dp,10)*1px),calc(var(--my,0)*var(--dp,10)*1px),0);transition:transform .9s var(--ease)}
+.cloud::before,.cloud::after{content:"";position:absolute;border-radius:50%;background:inherit;box-shadow:inset 6px 6px 12px #fff,inset -4px -2px 10px rgba(120,150,210,.1)}
+.cloud::before{width:46%;height:120%;left:16%;bottom:28%}
+.cloud::after{width:34%;height:92%;left:50%;bottom:30%}
+.cloud .drift{position:absolute;inset:0}
+.c-wrap{position:absolute;animation:drift var(--t,40s) linear infinite alternate}
+@keyframes drift{from{translate:-30px 0}to{translate:40px 0}}
+.spark{position:absolute;width:6px;height:6px;border-radius:50%;background:#fff;box-shadow:0 0 10px 3px rgba(255,255,255,.9);animation:rise var(--t,9s) linear infinite;animation-delay:var(--dl,0s);opacity:0}
+@keyframes rise{0%{transform:translateY(0);opacity:0}15%{opacity:.9}100%{transform:translateY(-260px);opacity:0}}
+
+.hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.02fr 1fr;align-items:center;gap:clamp(24px,4vw,56px)}
+.hero-copy{display:grid;gap:26px;min-width:0}
+.hero-h{font-size:clamp(46px,7.4vw,96px);font-weight:800;line-height:.98;letter-spacing:-.045em}
+.hero-h .w{display:inline-block;animation:wordin .9s var(--spring) both;animation-delay:calc(.15s + var(--i)*.08s)}
+@keyframes wordin{from{opacity:0;transform:translateY(46px) rotate(4deg)}to{opacity:1;transform:none}}
+.hero-h .fly{position:relative;background:linear-gradient(100deg,var(--blue) 0%,var(--lav) 35%,var(--coral) 65%,var(--blue) 100%);background-size:250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:wordin .9s var(--spring) both,shimmer 6s linear infinite;animation-delay:calc(.15s + var(--i)*.08s),1.2s;padding-right:.08em}
+@keyframes shimmer{to{background-position:-250% 0}}
+.hero-h .plane{position:absolute;right:-.62em;top:-.18em;width:.62em;height:.62em;animation:planein 1.6s var(--ease) both;animation-delay:.6s;filter:drop-shadow(4px 8px 8px rgba(59,130,246,.3))}
+@keyframes planein{0%{opacity:0;transform:translate(-3.4em,-1.6em) rotate(-30deg) scale(.6)}55%{opacity:1;transform:translate(.35em,-.4em) rotate(18deg) scale(1.05)}100%{opacity:1;transform:none}}
+.lede{font-size:clamp(16.5px,1.45vw,19px);color:var(--ink-2);max-width:54ch;animation:fadeup .9s var(--ease) both;animation-delay:.65s}
+@keyframes fadeup{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.cta-row{display:flex;flex-wrap:wrap;gap:14px;animation:fadeup .9s var(--ease) both;animation-delay:.8s}
+.hero-stats{display:flex;flex-wrap:wrap;gap:12px;animation:fadeup .9s var(--ease) both;animation-delay:.95s}
+.hstat{display:flex;align-items:baseline;gap:8px;padding:12px 18px;border-radius:20px}
+.hstat b{font-family:var(--f-display);font-size:22px;font-weight:800;font-variant-numeric:tabular-nums;color:var(--tone-d)}
+.hstat span{font-size:13px;font-weight:600;color:var(--ink-2)}
+.allied-strip{display:flex;align-items:center;flex-wrap:wrap;gap:12px;font-size:12.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);animation:fadeup .9s var(--ease) both;animation-delay:1.1s}
+.ally-badge{display:inline-flex;align-items:center;gap:9px;padding:6px 14px 6px 6px;border-radius:999px;background:#fff;box-shadow:5px 7px 16px rgba(52,92,170,.13),inset -2px -3px 6px rgba(15,27,61,.05),inset 2px 3px 6px #fff;letter-spacing:.02em;text-transform:none;color:var(--ink);font-size:13.5px}
+.mono-badge{position:relative;width:32px;height:32px;border-radius:50%;display:grid;place-items:center;font-family:var(--f-display);font-weight:800;font-size:9.5px;color:#fff;background:linear-gradient(140deg,var(--tone),var(--tone-d));overflow:hidden;flex:none}
+.mono-badge img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background:#fff}
+
+/* hero scene */
+.hero-scene{position:relative;width:100%;max-width:620px;justify-self:center;aspect-ratio:1/1;--rx:0deg;--ry:0deg}
+.fp{position:absolute;inset:0;width:100%;height:100%;overflow:visible;z-index:1}
+.fp .trail{stroke-dasharray:1600;stroke-dashoffset:1600;animation:draw 2.4s var(--ease) forwards;animation-delay:1.05s}
+@keyframes draw{to{stroke-dashoffset:0}}
+.fp .dashes{opacity:0;animation:fadein .6s ease forwards;animation-delay:3.2s}
+.fp .runner{opacity:0;animation:fadein .4s ease forwards;animation-delay:3.3s}
+@keyframes fadein{to{opacity:1}}
+.cert-stage{position:absolute;left:50%;top:50%;width:min(64%,380px);transform:translate(-50%,-50%);z-index:3;perspective:1100px}
+.cert-drop{animation:certdrop 1.2s var(--spring) both;animation-delay:.55s}
+@keyframes certdrop{0%{opacity:0;transform:translateY(-140px) rotate(-14deg) scale(.8)}100%{opacity:1;transform:none}}
+.cert-bob{animation:bob 6s ease-in-out infinite;animation-delay:1.8s}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+.hcert{position:relative;border-radius:30px;padding:22px 22px 20px;background:linear-gradient(160deg,#FFFFFF 0%,#F4F8FF 100%);
+  transform:rotateX(var(--rx)) rotateY(var(--ry)) rotateZ(-6deg);transform-style:preserve-3d;transition:transform .6s var(--ease);
+  box-shadow:24px 34px 60px rgba(52,92,170,.25),6px 8px 18px rgba(52,92,170,.1),inset -8px -10px 20px rgba(59,130,246,.08),inset 8px 8px 16px #fff;overflow:hidden}
+.hcert::before{content:"";position:absolute;inset:8px;border-radius:24px;border:1.5px dashed rgba(59,130,246,.25);pointer-events:none}
+.hcert .holo{position:absolute;inset:-40%;background:conic-gradient(from 0deg,rgba(255,122,107,.0),rgba(167,139,250,.18),rgba(96,165,250,.2),rgba(52,211,153,.16),rgba(255,200,87,.18),rgba(255,122,107,0));mix-blend-mode:multiply;animation:spin 14s linear infinite;pointer-events:none;opacity:.7}
+@keyframes spin{to{transform:rotate(1turn)}}
+.hc-top{position:relative;display:flex;align-items:center;gap:10px}
+.hc-top .logo-slot{width:44px;height:44px}
+.hc-org{font-family:var(--f-display);font-weight:800;font-size:15px;line-height:1.1}
+.hc-org small{display:block;font-family:var(--f-body);font-size:10.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);margin-top:3px}
+.hc-title{position:relative;margin-top:14px;font-family:var(--f-display);font-weight:800;font-size:clamp(15px,1.7vw,19px);letter-spacing:-.02em}
+.hc-body{position:relative;display:flex;gap:12px;align-items:center;margin-top:12px}
+.avatar{width:52px;height:52px;border-radius:18px;display:grid;place-items:center;font-family:var(--f-display);font-weight:800;color:#fff;background:linear-gradient(150deg,var(--lav),var(--blue));box-shadow:inset -3px -4px 8px rgba(30,40,120,.3),inset 3px 3px 8px rgba(255,255,255,.4);flex:none}
+.hc-meta{display:grid;gap:2px;font-size:12px;color:var(--ink-2);min-width:0}
+.hc-meta b{font-size:14px;color:var(--ink)}
+.hc-foot{position:relative;display:flex;justify-content:space-between;align-items:flex-end;margin-top:14px;gap:10px}
+.fit-badge{display:inline-flex;align-items:center;gap:6px;padding:8px 12px;border-radius:999px;font-weight:800;font-size:12px;letter-spacing:.08em;color:#fff;background:linear-gradient(180deg,#5BE3B0,#1FB27F);box-shadow:6px 8px 16px rgba(16,185,129,.35),inset -2px -3px 6px rgba(6,110,74,.3),inset 2px 3px 6px rgba(255,255,255,.4)}
+.fit-badge .ico{width:15px;height:15px;stroke-width:3}
+.qr{width:58px;height:58px;padding:4px;border-radius:10px;background:#fff;box-shadow:inset 0 0 0 1px var(--line)}
+.qr svg{width:100%;height:100%;display:block}
+.chip-orbit{position:absolute;inset:0;pointer-events:none}
+.dchip{position:absolute;left:0;top:0;width:var(--s,64px);height:var(--s,64px);margin:calc(var(--s,64px)/-2) 0 0 calc(var(--s,64px)/-2);border-radius:22px;display:grid;place-items:center;pointer-events:auto;color:var(--tone-d);
+  background:radial-gradient(120% 120% at 25% 20%,#fff 0%,var(--tone-t) 55%,color-mix(in srgb,var(--tone) 35%,var(--tone-t)) 100%);
+  box-shadow:10px 14px 24px rgba(var(--sh),.3),inset -4px -6px 10px rgba(var(--sh),.25),inset 4px 5px 10px #fff;transition:scale .4s var(--spring);will-change:transform}
+.dchip .ico{width:30px;height:30px;stroke-width:1.9}
+.dchip:hover,.dchip:focus-visible{scale:1.22;z-index:3}
+.dchip .tip{position:absolute;bottom:calc(100% + 10px);left:50%;translate:-50% 6px;white-space:nowrap;font-size:12.5px;font-weight:700;padding:6px 11px;border-radius:10px;background:var(--ink);color:#fff;opacity:0;pointer-events:none;transition:opacity .2s,translate .3s var(--spring)}
+.dchip:hover .tip,.dchip:focus-visible .tip{opacity:1;translate:-50% 0}
+.dchip-in{animation:popin .7s var(--spring) backwards}
+@keyframes popin{from{opacity:0;scale:.2}to{opacity:1;scale:1}}
+.gw{position:absolute;z-index:5;display:flex;align-items:center;gap:10px;padding:11px 15px 11px 11px;border-radius:20px;font-size:12px;color:var(--ink-2);animation:slidein .9s var(--spring) both}
+.gw b{display:block;font-size:14.5px;color:var(--ink);font-family:var(--f-display);font-variant-numeric:tabular-nums}
+.gw-heart{left:-2%;bottom:13%;animation-delay:2.2s}
+.gw-status{right:-1%;top:9%;animation-delay:2.4s}
+@keyframes slidein{from{opacity:0;transform:translateY(24px) scale(.9)}to{opacity:1;transform:none}}
+.heart-ic{width:40px;height:40px;border-radius:14px;display:grid;place-items:center;color:#fff;background:linear-gradient(150deg,#FF9C8F,var(--coral));box-shadow:inset -3px -4px 8px rgba(160,40,30,.25),inset 3px 3px 7px rgba(255,255,255,.45)}
+.heart-ic .ico{width:21px;height:21px;fill:#fff;stroke:none;animation:beat 1s ease-in-out infinite}
+@keyframes beat{0%,100%{transform:scale(1)}15%{transform:scale(1.22)}30%{transform:scale(1)}45%{transform:scale(1.14)}}
+.ring{width:40px;height:40px;flex:none}
+.ring circle{fill:none;stroke-width:5}
+.ring .bg{stroke:var(--mint-t)}
+.ring .fg{stroke:var(--mint);stroke-linecap:round;stroke-dasharray:107;stroke-dashoffset:107;transform:rotate(-90deg);transform-origin:center;animation:ringfill 1.6s var(--ease) forwards;animation-delay:2.8s}
+@keyframes ringfill{to{stroke-dashoffset:0}}
+.scroll-cue{position:absolute;left:50%;bottom:22px;translate:-50% 0;z-index:3;display:flex;flex-direction:column;align-items:center;gap:6px;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
+.scroll-cue i{width:24px;height:38px;border-radius:14px;box-shadow:inset 2px 2px 5px rgba(52,92,170,.2),inset -2px -2px 5px #fff;position:relative}
+.scroll-cue i::after{content:"";position:absolute;left:50%;top:8px;width:5px;height:8px;border-radius:4px;background:var(--blue);translate:-50% 0;animation:wheel 1.8s ease-in-out infinite}
+@keyframes wheel{0%{opacity:0;top:6px}30%{opacity:1}100%{opacity:0;top:22px}}
+@media (max-width:960px){
+  .hero{padding-top:110px}
+  .hero-grid{grid-template-columns:1fr}
+  .hero-scene{order:-1;max-width:460px;margin-top:-10px}
+  .scroll-cue{display:none}
+}
+@media (max-width:520px){
+  .gw-status{display:none}
+  .cert-stage{width:62%}
+  .hstat{padding:10px 14px}
+  .gw{padding:8px 11px 8px 8px;font-size:11px}
+  .gw b{font-size:13px}
+  .heart-ic,.ring{width:32px;height:32px}
+  .gw-heart{left:0;bottom:2%}
+  .gw-status{right:0;top:2%}
+  .hcert{padding:16px}
+  .hc-body .avatar{width:42px;height:42px;border-radius:14px}
+  .qr{width:46px;height:46px}
+  .btn{min-height:50px;padding:0 20px}
+}
+
+/* ---------- Phase band ---------- */
+.phase{margin-top:-46px;position:relative;z-index:4}
+.phase-card{display:grid;grid-template-columns:1.1fr 1.4fr;gap:clamp(20px,4vw,48px);align-items:center;padding:clamp(24px,3.5vw,40px)}
+.phase-card h2{font-size:clamp(24px,2.8vw,34px);font-weight:800;margin-top:12px}
+.phase-card p{color:var(--ink-2);margin-top:10px;font-size:15.5px}
+.track{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;position:relative}
+.track::before{content:"";position:absolute;left:12%;right:12%;top:27px;height:8px;border-radius:8px;background:var(--sky-2);box-shadow:inset 2px 2px 4px rgba(52,92,170,.18),inset -2px -2px 4px #fff}
+.track .fillbar{position:absolute;left:12%;top:27px;height:8px;border-radius:8px;width:0;background:linear-gradient(90deg,var(--mint),var(--blue-2));transition:width 1.8s var(--ease)}
+.track.go .fillbar{width:63%}
+.ph{position:relative;display:grid;justify-items:center;gap:10px;text-align:center;font-size:13px;font-weight:700;color:var(--ink-2)}
+.ph .knob{width:62px;height:62px;border-radius:50%;display:grid;place-items:center;font-family:var(--f-display);font-weight:800;font-size:17px;color:var(--mint-d);background:radial-gradient(120% 120% at 30% 25%,#fff,var(--mint-t) 70%);box-shadow:6px 8px 16px rgba(52,211,153,.3),inset -3px -4px 8px rgba(14,159,110,.18),inset 3px 3px 8px #fff}
+.ph.now .knob{color:#fff;background:radial-gradient(120% 120% at 30% 25%,#8EC0FF,var(--blue));box-shadow:0 0 0 0 rgba(59,130,246,.5),8px 10px 20px rgba(59,130,246,.35),inset -3px -4px 8px rgba(20,60,160,.3),inset 3px 3px 8px rgba(255,255,255,.45);animation:knob 2.2s infinite}
+@keyframes knob{0%{box-shadow:0 0 0 0 rgba(59,130,246,.45),8px 10px 20px rgba(59,130,246,.35)}70%{box-shadow:0 0 0 16px rgba(59,130,246,0),8px 10px 20px rgba(59,130,246,.35)}100%{box-shadow:0 0 0 0 rgba(59,130,246,0),8px 10px 20px rgba(59,130,246,.35)}}
+.ph small{display:block;font-weight:600;font-size:11.5px;color:var(--ink-3)}
+@media (max-width:860px){.phase-card{grid-template-columns:1fr}}
+@media (max-width:460px){.ph .knob{width:50px;height:50px;font-size:15px}.track::before,.track .fillbar{top:21px}.ph{font-size:12px}}
+
+/* ---------- About ---------- */
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,72px);align-items:center}
+.about-copy{display:grid;gap:20px;min-width:0}
+.about-copy p{color:var(--ink-2);font-size:17px}
+.bento{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:auto auto;gap:18px}
+.btile{padding:26px;display:grid;gap:14px;align-content:start;transition:transform .5s var(--spring)}
+.btile:hover{transform:translateY(-6px)}
+.btile h3{font-size:24px;font-weight:800}
+.btile p{font-size:14.5px;color:var(--ink-2)}
+.btile.big{grid-row:span 2;background:linear-gradient(170deg,#fff 0%,var(--blue-t) 100%)}
+.btile.big .bignum{font-family:var(--f-display);font-weight:800;font-size:clamp(64px,7vw,96px);line-height:.9;letter-spacing:-.05em;color:var(--blue-d)}
+.marquee{margin-top:clamp(40px,6vw,72px);overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.marquee-track{display:flex;gap:16px;width:max-content;animation:marq 32s linear infinite;padding-block:16px 26px}
+.marquee:hover .marquee-track{animation-play-state:paused}
+@keyframes marq{to{transform:translateX(-50%)}}
+.vpill{display:inline-flex;align-items:center;gap:10px;padding:12px 22px 12px 12px;border-radius:999px;font-weight:700;font-size:15px;white-space:nowrap}
+.vpill .bubble{width:38px;height:38px;border-radius:50%}
+.vpill .bubble .ico{width:20px;height:20px}
+@media (max-width:900px){.about-grid{grid-template-columns:1fr}}
+@media (max-width:480px){.bento{grid-template-columns:1fr}.btile.big{grid-row:auto}}
+
+/* ---------- Services ---------- */
+.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.svc{position:relative;padding:30px 28px 26px;display:grid;gap:16px;align-content:start;transition:transform .5s var(--spring),box-shadow .4s;transform-style:preserve-3d;will-change:transform}
+.svc h3{font-size:21px;font-weight:700;letter-spacing:-.02em}
+.svc p{color:var(--ink-2);font-size:15px}
+.svc .num{position:absolute;right:24px;top:22px;font-family:var(--f-mono);font-size:12px;font-weight:600;color:var(--ink-3)}
+.svc .link-btn{opacity:.0;transform:translateY(6px);transition:opacity .3s,transform .4s var(--spring)}
+.svc:hover .link-btn,.svc:focus-within .link-btn{opacity:1;transform:none}
+@media (hover:none){.svc .link-btn{opacity:1;transform:none}}
+@media (max-width:980px){.svc-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:620px){.svc-grid{grid-template-columns:1fr}}
+
+/* ---------- Disciplines ---------- */
+.disc-tabs{display:flex;gap:12px;overflow-x:auto;padding:10px 6px 24px;scrollbar-width:none;margin-inline:-6px}
+.disc-tabs::-webkit-scrollbar{display:none}
+.dtab{flex:none;display:flex;align-items:center;gap:10px;padding:10px 18px 10px 10px;border-radius:999px;font-weight:700;font-size:14.5px;background:#fff;color:var(--ink-2);box-shadow:6px 8px 16px rgba(52,92,170,.12),inset -3px -3px 7px rgba(15,27,61,.05),inset 3px 3px 7px #fff;transition:transform .35s var(--spring),background .3s,color .3s}
+.dtab:hover{transform:translateY(-3px)}
+.dtab .bubble{width:38px;height:38px;border-radius:50%}
+.dtab .bubble .ico{width:21px;height:21px}
+.dtab[aria-selected="true"]{color:var(--ink);background:var(--tone-t);box-shadow:inset 4px 5px 10px rgba(var(--sh),.25),inset -4px -4px 10px #fff}
+.disc-panel{display:grid;grid-template-columns:.9fr 1.1fr;gap:0;overflow:hidden}
+.dp-visual{position:relative;min-height:340px;display:grid;place-items:center;background:radial-gradient(130% 100% at 30% 20%,#fff,var(--tone-t) 70%);overflow:hidden}
+.dp-visual .huge{width:58%;max-width:230px;aspect-ratio:1;border-radius:36%;display:grid;place-items:center;color:var(--tone-d);background:radial-gradient(120% 120% at 25% 20%,#fff,var(--tone-t) 50%,color-mix(in srgb,var(--tone) 40%,var(--tone-t)));box-shadow:20px 26px 44px rgba(var(--sh),.32),inset -10px -12px 22px rgba(var(--sh),.25),inset 10px 10px 20px #fff;animation:bob 5s ease-in-out infinite}
+.dp-visual .huge .ico{width:52%;height:52%;stroke-width:1.5}
+.dp-visual .alt{position:absolute;left:22px;bottom:20px;font-family:var(--f-mono);font-size:12px;font-weight:600;color:var(--tone-d);background:rgba(255,255,255,.75);padding:7px 11px;border-radius:10px}
+.dp-copy{padding:clamp(24px,3.5vw,44px);display:grid;gap:20px;align-content:start;min-width:0}
+.dp-copy h3{font-size:clamp(26px,2.8vw,34px);font-weight:800}
+.dp-copy .lead{color:var(--ink-2)}
+.dp-cols{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.dp-cols h4{font-family:var(--f-body);font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);margin-bottom:10px}
+.dp-cols ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.dp-cols li{display:flex;gap:9px;align-items:flex-start;font-size:14.5px;font-weight:500}
+.dp-cols li .ico{width:18px;height:18px;margin-top:3px;color:var(--tone-d);stroke-width:2.4}
+.dp-class{display:flex;flex-wrap:wrap;align-items:center;gap:12px;padding-top:6px;border-top:1px dashed var(--line);font-size:14px;color:var(--ink-2)}
+.dp-class b{color:var(--ink)}
+.panel-anim{animation:panelin .55s var(--spring)}
+@keyframes panelin{from{opacity:.2;transform:translateY(14px) scale(.985)}to{opacity:1;transform:none}}
+@media (max-width:860px){.disc-panel{grid-template-columns:1fr}.dp-visual{min-height:230px}}
+@media (max-width:520px){.dp-cols{grid-template-columns:1fr}}
+
+/* ---------- Certification ---------- */
+.cert-sec{background:linear-gradient(180deg,var(--sky) 0%,#EEF4FF 40%,#F7F3FF 100%)}
+.journey{position:relative;display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-bottom:clamp(40px,6vw,72px)}
+.journey-line{position:absolute;left:10%;right:10%;top:40px;height:4px;z-index:0}
+.journey-line svg{width:100%;height:24px;overflow:visible;position:absolute;top:-10px}
+.jstep{position:relative;z-index:1;display:grid;justify-items:center;text-align:center;gap:12px}
+.jstep .bubble{width:80px;height:80px;border-radius:28px;transition:transform .5s var(--spring)}
+.jstep .bubble .ico{width:34px;height:34px}
+.jstep.lit .bubble{transform:translateY(-6px) scale(1.06)}
+.jstep .n{font-family:var(--f-mono);font-size:11.5px;font-weight:600;color:var(--ink-3)}
+.jstep h3{font-family:var(--f-body);font-size:16px;font-weight:800;letter-spacing:-.01em}
+.jstep p{font-size:13.5px;color:var(--ink-2);max-width:22ch}
+@media (max-width:860px){
+  .journey{grid-template-columns:1fr;gap:22px;padding-left:4px}
+  .journey-line{display:none}
+  .jstep{grid-template-columns:auto 1fr;justify-items:start;text-align:left;column-gap:18px;row-gap:2px;align-items:center}
+  .jstep .bubble{grid-row:span 3;width:64px;height:64px;border-radius:22px}
+  .jstep p{max-width:none}
+}
+.cert-tools{display:grid;grid-template-columns:1fr 1.15fr;gap:24px;align-items:start}
+.tool{padding:clamp(22px,3vw,34px);display:grid;gap:18px;min-width:0}
+.tool-head{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.tool-head h3{font-size:22px;font-weight:800}
+.tool-head p{font-size:14px;color:var(--ink-2);width:100%}
+.q{display:grid;gap:10px}
+.q-label{font-weight:700;font-size:14.5px}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.opt{padding:9px 15px;border-radius:999px;font-size:13.5px;font-weight:700;color:var(--ink-2);background:var(--sky);box-shadow:4px 5px 10px rgba(52,92,170,.1),inset -2px -2px 5px rgba(15,27,61,.04),inset 2px 2px 5px #fff;transition:transform .3s var(--spring),background .25s,color .25s}
+.opt:hover{transform:translateY(-2px)}
+.opt[aria-pressed="true"]{color:var(--blue-d);background:var(--blue-t);box-shadow:inset 3px 4px 8px rgba(59,130,246,.22),inset -3px -3px 7px #fff}
+.elig-result{border-radius:22px;padding:18px 20px;display:grid;gap:8px;background:var(--tone-t);border:1px solid rgba(255,255,255,.9)}
+.elig-result h4{font-family:var(--f-display);font-size:18px;color:var(--tone-d)}
+.elig-result p,.elig-result li{font-size:14px;color:var(--ink-2)}
+.elig-result ul{margin:0;padding-left:18px;display:grid;gap:4px}
+.cert-side{display:grid;gap:24px;min-width:0}
+
+/* fields */
+.field{display:grid;gap:7px;min-width:0}
+.field label,.flabel{font-size:13.5px;font-weight:700;color:var(--ink)}
+.field .hint{font-size:12.5px;color:var(--ink-3)}
+.inp{width:100%;min-height:52px;padding:12px 18px;border-radius:18px;border:1.5px solid transparent;background:var(--sky);box-shadow:inset 4px 5px 10px rgba(52,92,170,.13),inset -4px -4px 10px #fff;outline:none;transition:border-color .2s,box-shadow .2s,background .2s}
+textarea.inp{min-height:96px;resize:vertical}
+select.inp{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%234B5878' stroke-width='2.2' stroke-linecap='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center;padding-right:44px}
+.inp:focus{border-color:var(--blue-2);background:#fff}
+.inp.bad{border-color:var(--coral);background:#FFF8F7}
+.err{font-size:12.5px;font-weight:600;color:var(--coral-d);min-height:0}
+.err:empty{display:none}
+.inline-form{display:flex;gap:10px;flex-wrap:wrap}
+.inline-form .inp{flex:1 1 220px;font-family:var(--f-mono);font-size:14.5px;letter-spacing:.02em}
+.samples{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:12.5px;color:var(--ink-3)}
+.samples button{font-family:var(--f-mono);font-size:12px;font-weight:600;padding:5px 10px;border-radius:8px;background:var(--sky-2);color:var(--ink-2)}
+.samples button:hover{background:var(--blue-t);color:var(--blue-d)}
+
+/* status tracker */
+.status-tl{list-style:none;margin:0;padding:0;display:grid;gap:0}
+.status-tl li{position:relative;display:grid;grid-template-columns:36px 1fr;gap:14px;padding-bottom:18px}
+.status-tl li:last-child{padding-bottom:0}
+.status-tl li::before{content:"";position:absolute;left:17px;top:36px;bottom:0;width:3px;border-radius:3px;background:var(--line)}
+.status-tl li:last-child::before{display:none}
+.status-tl li.done::before{background:var(--mint)}
+.sdot{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:var(--sky);box-shadow:inset 3px 3px 6px rgba(52,92,170,.15),inset -3px -3px 6px #fff;color:var(--ink-3)}
+.sdot .ico{width:17px;height:17px;stroke-width:3}
+.done .sdot{color:#fff;background:linear-gradient(180deg,#5BE3B0,#1FB27F);box-shadow:4px 6px 12px rgba(16,185,129,.3),inset 2px 3px 5px rgba(255,255,255,.4)}
+.current .sdot{color:#fff;background:linear-gradient(180deg,#7DB3FF,var(--blue));box-shadow:0 0 0 0 rgba(59,130,246,.5);animation:knob 2s infinite}
+.warn .sdot{color:#fff;background:linear-gradient(180deg,#FFD77F,#F2A93B)}
+.status-tl b{display:block;font-size:15px}
+.status-tl span{font-size:13px;color:var(--ink-2)}
+.status-head{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;padding:14px 16px;border-radius:18px;background:var(--sky)}
+.status-head code{font-family:var(--f-mono);font-size:13px;font-weight:600}
+
+/* verify result */
+.vres{display:flex;gap:16px;align-items:center;padding:18px;border-radius:22px;background:var(--tone-t);animation:panelin .5s var(--spring)}
+.vres .bubble{width:54px;height:54px;border-radius:18px}
+.vres h4{font-family:var(--f-display);font-size:18px;color:var(--tone-d)}
+.vres p{font-size:13.5px;color:var(--ink-2)}
+.vres code{font-family:var(--f-mono);font-size:12.5px}
+
+/* full certificate */
+.cert-show{margin-top:clamp(40px,6vw,72px);display:grid;grid-template-columns:1.25fr .75fr;gap:clamp(24px,4vw,48px);align-items:center}
+.paper-wrap{perspective:1400px}
+.paper{position:relative;border-radius:30px;padding:clamp(22px,3.5vw,42px);background:linear-gradient(160deg,#FFFFFF,#F6F9FF);overflow:hidden;transition:transform .7s var(--ease);
+  box-shadow:28px 36px 70px rgba(52,92,170,.22),inset -8px -10px 20px rgba(59,130,246,.06),inset 8px 8px 16px #fff}
+.paper .guil{position:absolute;inset:0;width:100%;height:100%;opacity:.55;pointer-events:none}
+.paper .holo2{position:absolute;inset:0;background:linear-gradient(115deg,transparent 20%,rgba(167,139,250,.22) 35%,rgba(96,165,250,.25) 45%,rgba(52,211,153,.2) 55%,rgba(255,200,87,.22) 65%,transparent 80%);background-size:250% 100%;background-position:120% 0;mix-blend-mode:multiply;transition:background-position 1.2s var(--ease);pointer-events:none}
+.paper:hover .holo2{background-position:-30% 0}
+.paper-border{position:absolute;inset:12px;border-radius:22px;border:2px solid transparent;background:linear-gradient(#0000,#0000) padding-box,linear-gradient(90deg,var(--coral),#fff 30%,var(--blue) 60%,#fff 80%,var(--coral)) border-box;-webkit-mask:linear-gradient(#000 0 0) padding-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;opacity:.55;pointer-events:none}
+.paper-in{position:relative;display:grid;gap:18px}
+.p-top{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap}
+.p-top .brand .logo-slot{width:56px;height:56px}
+.p-top .brand{font-size:19px}
+.p-id{font-family:var(--f-mono);font-size:12.5px;font-weight:600;color:var(--ink-2);background:var(--sky-2);padding:7px 11px;border-radius:9px}
+.p-title{text-align:center;display:grid;gap:6px;padding-block:8px}
+.p-title small{font-size:12px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3)}
+.p-title h3{font-size:clamp(24px,3vw,36px);font-weight:800}
+.p-title p{font-size:14px;color:var(--ink-2)}
+.p-name{font-family:var(--f-display);font-weight:700;font-size:clamp(26px,3.6vw,40px);letter-spacing:-.02em;text-align:center;background:linear-gradient(90deg,var(--blue-d),var(--lav-d));-webkit-background-clip:text;background-clip:text;color:transparent}
+.p-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.p-grid div{padding:12px 14px;border-radius:16px;background:rgba(255,255,255,.75);box-shadow:inset 0 0 0 1px var(--line)}
+.p-grid small{display:block;font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3)}
+.p-grid b{font-size:14.5px;font-variant-numeric:tabular-nums}
+.p-foot{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap}
+.sig{display:grid;gap:4px;min-width:180px}
+.sig svg{width:160px;height:44px}
+.sig span{border-top:1.5px solid var(--ink-3);padding-top:6px;font-size:12px;color:var(--ink-2)}
+.p-foot .qr{width:86px;height:86px}
+.cert-copy{display:grid;gap:18px;min-width:0}
+.cert-copy .btns{display:flex;gap:12px;flex-wrap:wrap}
+.checklist{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.checklist li{display:flex;gap:12px;align-items:flex-start;font-size:15px;color:var(--ink-2)}
+.checklist li .bubble{width:34px;height:34px;border-radius:12px}
+.checklist li .bubble .ico{width:17px;height:17px;stroke-width:2.6}
+.checklist b{color:var(--ink)}
+@media (max-width:980px){.cert-tools,.cert-show{grid-template-columns:1fr}}
+@media (max-width:620px){.p-grid{grid-template-columns:1fr 1fr}}
+
+/* ---------- Founder ---------- */
+.founder-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(28px,5vw,72px);align-items:center}
+.f-photo{position:relative;max-width:440px;justify-self:center;width:100%}
+.f-frame{position:relative;aspect-ratio:4/5;border-radius:44px;padding:14px;background:linear-gradient(160deg,#fff,var(--lav-t));box-shadow:24px 30px 60px rgba(124,92,224,.22),inset -8px -10px 20px rgba(124,92,224,.12),inset 8px 8px 16px #fff}
+.f-img{position:relative;width:100%;height:100%;border-radius:34px;overflow:hidden;background:linear-gradient(160deg,var(--lav) 0%,var(--blue) 100%);display:grid;place-items:center}
+.f-img .mono{font-family:var(--f-display);font-weight:800;font-size:clamp(70px,10vw,120px);color:rgba(255,255,255,.92);letter-spacing:-.05em}
+.f-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.f-chip{position:absolute;display:flex;align-items:center;gap:9px;padding:9px 14px 9px 9px;border-radius:999px;font-size:13px;font-weight:700;white-space:nowrap;animation:bob 6s ease-in-out infinite;animation-delay:var(--dl,0s)}
+.f-chip .bubble{width:32px;height:32px;border-radius:50%}
+.f-chip .bubble .ico{width:17px;height:17px}
+.fc1{left:-7%;top:10%}.fc2{right:-8%;top:30%}.fc3{left:-5%;bottom:22%}.fc4{right:-4%;bottom:6%}
+.f-copy{display:grid;gap:20px;min-width:0}
+.f-copy .role{font-size:13px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--lav-d)}
+.f-copy h2{font-size:clamp(36px,5vw,62px);font-weight:800}
+.f-copy .sub{font-weight:600;color:var(--ink)}
+.f-copy p.bio{color:var(--ink-2);font-size:16.5px}
+.quote{position:relative;padding:28px 30px 26px 30px;font-family:var(--f-display);font-weight:600;font-size:clamp(20px,2.2vw,26px);line-height:1.3;letter-spacing:-.02em}
+.quote .qm{position:absolute;left:22px;top:-26px;width:52px;height:52px;border-radius:18px;display:grid;place-items:center;font-size:44px;font-weight:800;color:#fff;background:linear-gradient(150deg,var(--lav),var(--coral));box-shadow:8px 10px 20px rgba(167,139,250,.35),inset 3px 3px 7px rgba(255,255,255,.4),inset -3px -4px 8px rgba(80,40,160,.25);line-height:1;padding-top:16px}
+.quote cite{display:block;margin-top:12px;font-family:var(--f-body);font-style:normal;font-size:13.5px;font-weight:700;color:var(--ink-3);letter-spacing:0}
+@media (max-width:900px){.founder-grid{grid-template-columns:1fr}.fc1{left:-2%}.fc2{right:-2%}.fc3{left:-2%}.fc4{right:-2%}}
+@media (max-width:440px){.f-chip{font-size:11.5px;padding:7px 11px 7px 7px}.f-chip .bubble{width:26px;height:26px}}
+
+/* timeline */
+.tl{position:relative;margin-top:clamp(56px,8vw,96px)}
+.tl-title{display:flex;align-items:end;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-bottom:34px}
+.tl-title h3{font-size:clamp(28px,3.4vw,42px);font-weight:800}
+.tl-rail{position:relative;display:grid;grid-template-columns:repeat(6,1fr);gap:16px}
+.tl-path{position:absolute;left:0;right:0;top:30px;height:60px;z-index:0;pointer-events:none}
+.tl-path svg{width:100%;height:100%;overflow:visible}
+.tl-path .base{stroke:var(--line);stroke-width:4;fill:none;stroke-dasharray:2 12;stroke-linecap:round}
+.tl-path .prog{stroke:url(#tlg);stroke-width:5;fill:none;stroke-linecap:round}
+.tl-item{position:relative;z-index:1;display:grid;gap:12px;align-content:start}
+.tl-knob{width:60px;height:60px;border-radius:22px;display:grid;place-items:center;font-family:var(--f-display);font-weight:800;font-size:12.5px;line-height:1.05;text-align:center;color:var(--ink-3);background:#fff;box-shadow:6px 8px 16px rgba(52,92,170,.12),inset -3px -4px 8px rgba(15,27,61,.05),inset 3px 3px 8px #fff;transition:all .6s var(--spring)}
+.tl-item.lit .tl-knob{color:#fff;background:linear-gradient(150deg,var(--tone),var(--tone-d));box-shadow:8px 12px 22px rgba(var(--sh),.38),inset -3px -4px 8px rgba(0,0,0,.15),inset 3px 3px 8px rgba(255,255,255,.4);transform:translateY(-4px) rotate(-4deg)}
+.tl-item h4{font-family:var(--f-body);font-size:16px;font-weight:800;letter-spacing:-.01em}
+.tl-item p{font-size:13.5px;color:var(--ink-2)}
+@media (max-width:980px){.tl-rail{grid-template-columns:repeat(3,1fr);row-gap:34px}.tl-path{display:none}}
+@media (max-width:560px){.tl-rail{grid-template-columns:1fr}.tl-item{grid-template-columns:60px 1fr;column-gap:16px}.tl-item .tl-knob{grid-row:span 2}}
+
+/* ---------- Pillars ---------- */
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;align-items:center}
+.pillar{padding:clamp(28px,3.4vw,40px);display:grid;gap:18px;justify-items:start;animation:bob 7s ease-in-out infinite;animation-delay:var(--dl,0s)}
+.pillar.mid{padding-block:clamp(40px,4.5vw,56px);background:linear-gradient(170deg,#fff,var(--blue-t))}
+.pillar .lbl{font-size:12.5px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--tone-d)}
+.pillar h3{font-size:clamp(22px,2.2vw,27px);font-weight:800}
+.pillar p{color:var(--ink-2);font-size:15.5px}
+@media (max-width:900px){.pillars{grid-template-columns:1fr}.pillar{animation:none}}
+
+/* ---------- Impact ---------- */
+.impact{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(24px,4vw,56px);align-items:center}
+.istats{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.istat{padding:24px;display:grid;gap:4px}
+.istat b{font-family:var(--f-display);font-weight:800;font-size:clamp(38px,4.4vw,54px);line-height:1;letter-spacing:-.04em;color:var(--tone-d);font-variant-numeric:tabular-nums}
+.istat span{font-size:14px;font-weight:600;color:var(--ink-2)}
+.map-card{position:relative;padding:clamp(18px,3vw,32px)}
+.map-card svg{width:100%;height:auto;display:block;overflow:visible}
+.map-legend{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.mdot{transform-box:fill-box;transform-origin:center}
+.mdot .halo{animation:halo 2.6s ease-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes halo{0%{transform:scale(.6);opacity:.8}100%{transform:scale(2.6);opacity:0}}
+@media (max-width:900px){.impact{grid-template-columns:1fr}}
+
+/* ---------- Related services ---------- */
+.rel-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:20px}
+.rel{padding:26px;display:grid;gap:12px;align-content:start;transition:transform .5s var(--spring)}
+.rel:hover{transform:translateY(-6px) rotate(-.6deg)}
+.rel h3{font-size:19px;font-weight:700}
+.rel p{font-size:14.5px;color:var(--ink-2)}
+.rel.w3{grid-column:span 3}.rel.w2{grid-column:span 2}
+.rel.w3{grid-template-columns:auto 1fr;column-gap:20px;align-items:center}
+.rel.w3 .bubble{grid-row:span 2}
+@media (max-width:900px){.rel-grid{grid-template-columns:1fr 1fr}.rel.w3,.rel.w2{grid-column:span 1}.rel.w3{grid-template-columns:1fr}.rel.w3 .bubble{grid-row:auto}}
+@media (max-width:540px){.rel-grid{grid-template-columns:1fr}}
+
+/* ---------- Testimonials ---------- */
+.tcar{display:grid;grid-auto-flow:column;grid-auto-columns:min(560px,86%);gap:22px;overflow-x:auto;scroll-snap-type:x mandatory;padding:12px 6px 34px;scrollbar-width:none;cursor:grab}
+.tcar::-webkit-scrollbar{display:none}
+.tcar.drag{cursor:grabbing;scroll-snap-type:none}
+.tcard{scroll-snap-align:start;padding:clamp(26px,3vw,38px);display:grid;gap:22px;align-content:space-between;user-select:none}
+.tcard blockquote{margin:0;font-family:var(--f-display);font-weight:600;font-size:clamp(18px,1.8vw,22px);line-height:1.4;letter-spacing:-.015em}
+.tcard .who{display:flex;align-items:center;gap:14px}
+.tcard .who b{display:block;font-size:15px}
+.tcard .who span{font-size:13.5px;color:var(--ink-2)}
+.tnav{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.tdots{display:flex;gap:8px}
+.tdots button{width:12px;height:12px;border-radius:999px;background:var(--line);transition:width .4s var(--spring),background .3s}
+.tdots button[aria-current="true"]{width:34px;background:var(--blue)}
+.tarrows{display:flex;gap:10px}
+.round{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;background:#fff;box-shadow:6px 8px 16px rgba(52,92,170,.15),inset -3px -3px 7px rgba(15,27,61,.05),inset 3px 3px 7px #fff;transition:transform .3s var(--spring)}
+.round:hover{transform:translateY(-3px)}
+.round:active{transform:scale(.94);box-shadow:inset 4px 4px 9px rgba(52,92,170,.18)}
+
+/* ---------- Integrity ---------- */
+.integrity{background:linear-gradient(180deg,#F7F3FF,#FFF0EC)}
+.int-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(28px,5vw,72px);align-items:center}
+.int-h{font-size:clamp(44px,7vw,96px);font-weight:800;line-height:.95;letter-spacing:-.05em}
+.int-h .strike{position:relative;display:inline-block;color:var(--coral-d)}
+.int-h .strike::after{content:"";position:absolute;left:-2%;right:-2%;top:54%;height:.11em;border-radius:99px;background:var(--ink);transform:scaleX(0) rotate(-4deg);transform-origin:left;transition:transform .9s var(--ease) .3s}
+.int-h.in .strike::after,.int-h.static .strike::after{transform:scaleX(1) rotate(-4deg)}
+.int-copy{display:grid;gap:22px;min-width:0}
+.int-copy p{color:var(--ink-2);font-size:17px}
+.int-pills{display:flex;flex-wrap:wrap;gap:10px}
+.int-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.int-stats .istat{padding:20px 18px;text-align:center;justify-items:center}
+.int-stats .istat b{font-size:clamp(34px,4vw,48px)}
+.int-stats .istat span{font-size:13px}
+.ptag-wrap{display:grid;place-items:center;position:relative;min-height:360px}
+.ptag{position:relative;width:min(320px,82%);aspect-ratio:1/1.15;border-radius:46px 46px 46px 46px;padding:34px 30px;display:grid;align-content:end;gap:6px;background:radial-gradient(130% 110% at 25% 15%,#fff,var(--coral-t) 60%,#FFC9BF);box-shadow:28px 36px 60px rgba(255,122,107,.3),inset -10px -14px 24px rgba(224,78,60,.18),inset 10px 10px 20px #fff;transform:rotate(-8deg);animation:swing 6s ease-in-out infinite;transform-origin:50% -40px}
+@keyframes swing{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(-3deg)}}
+.ptag .hole{position:absolute;top:26px;left:50%;translate:-50% 0;width:34px;height:34px;border-radius:50%;background:var(--peach);box-shadow:inset 4px 5px 9px rgba(224,78,60,.3),inset -3px -3px 7px #fff}
+.ptag .string{position:absolute;bottom:calc(100% - 42px);left:50%;width:3px;height:120px;background:linear-gradient(var(--ink-3),var(--ink-2));border-radius:3px;translate:-50% 0}
+.ptag small{font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--coral-d)}
+.ptag .price{font-family:var(--f-display);font-weight:800;font-size:clamp(46px,6vw,64px);line-height:1;color:var(--ink);letter-spacing:-.04em}
+.ptag .stamp{position:absolute;left:50%;top:44%;translate:-50% -50%;rotate:-16deg;padding:10px 18px;border:4px solid var(--coral-d);border-radius:14px;font-family:var(--f-display);font-weight:800;font-size:clamp(20px,2.6vw,28px);letter-spacing:.04em;color:var(--coral-d);background:rgba(255,255,255,.55);white-space:nowrap}
+@media (max-width:900px){.int-grid{grid-template-columns:1fr}.ptag-wrap{order:-1;min-height:300px}}
+@media (max-width:440px){.int-stats{grid-template-columns:1fr}}
+
+/* ---------- Allied ---------- */
+.net{position:relative;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:clamp(20px,5vw,80px)}
+.net-lines{position:absolute;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;overflow:visible}
+.hub{position:relative;z-index:1;width:clamp(200px,22vw,260px);aspect-ratio:1;border-radius:50%;display:grid;place-items:center;text-align:center;gap:6px;align-content:center;background:radial-gradient(120% 120% at 30% 25%,#fff,var(--blue-t) 70%);box-shadow:24px 30px 60px rgba(59,130,246,.25),inset -10px -12px 24px rgba(59,130,246,.18),inset 10px 10px 20px #fff}
+.hub::before{content:"";position:absolute;inset:-18px;border-radius:50%;border:2px dashed rgba(59,130,246,.3);animation:spin 40s linear infinite}
+.hub .logo-slot{width:clamp(80px,9vw,104px);height:clamp(80px,9vw,104px)}
+.hub b{font-family:var(--f-display);font-size:20px}
+.hub span{font-size:12px;font-weight:700;color:var(--ink-2);max-width:16ch}
+.node{position:relative;z-index:1;padding:28px;display:grid;gap:14px;transition:transform .5s var(--spring)}
+.node:hover{transform:translateY(-6px)}
+.node .nlogo{width:72px;height:72px;border-radius:24px;position:relative;overflow:hidden;display:grid;place-items:center;font-family:var(--f-display);font-weight:800;font-size:15px;color:#fff;background:linear-gradient(150deg,var(--tone),var(--tone-d));box-shadow:8px 10px 20px rgba(var(--sh),.3),inset 3px 3px 7px rgba(255,255,255,.4),inset -3px -4px 8px rgba(0,0,0,.15)}
+.node .nlogo img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#fff;padding:6px}
+.node h3{font-size:21px;font-weight:800}
+.node p{font-size:14.5px;color:var(--ink-2)}
+@media (max-width:900px){.net{grid-template-columns:1fr;justify-items:center}.net-lines{display:none}.node{max-width:520px;width:100%}}
+
+/* ---------- Newsletter ---------- */
+.join{position:relative;overflow:hidden;padding:clamp(32px,5vw,64px);border-radius:44px;background:linear-gradient(120deg,#5B9BFF 0%,#8B7CF6 50%,#FF8C7A 100%);color:#fff;box-shadow:24px 32px 60px rgba(99,102,241,.3),inset -10px -14px 24px rgba(40,30,120,.25),inset 10px 10px 20px rgba(255,255,255,.3)}
+.join .cloud{opacity:.9}
+.join-in{position:relative;z-index:1;display:grid;grid-template-columns:1.1fr 1fr;gap:28px;align-items:center}
+.join h2{font-size:clamp(32px,4.4vw,52px);font-weight:800}
+.join p{opacity:.92;font-size:17px;margin-top:12px}
+.join-form{display:flex;gap:10px;flex-wrap:wrap;padding:8px;border-radius:999px;background:rgba(255,255,255,.22);box-shadow:inset 4px 5px 10px rgba(40,30,120,.25),inset -3px -3px 8px rgba(255,255,255,.25)}
+.join-form input{flex:1 1 180px;min-height:52px;border:0;outline:none;background:transparent;padding:0 18px;color:#fff;font-weight:600}
+.join-form input::placeholder{color:rgba(255,255,255,.8)}
+.join-form .btn{background:#fff;color:var(--ink);box-shadow:6px 8px 18px rgba(40,30,120,.25),inset -3px -4px 8px rgba(52,92,170,.12)}
+.join-ok{display:flex;align-items:center;gap:14px;font-weight:700;font-size:17px;padding:14px 18px;border-radius:999px;background:rgba(255,255,255,.22);animation:panelin .5s var(--spring)}
+.join .err{color:#fff;background:rgba(224,78,60,.5);padding:4px 10px;border-radius:8px;display:inline-block;margin-top:8px}
+@media (max-width:860px){.join-in{grid-template-columns:1fr}.join-form{border-radius:28px}}
+
+/* ---------- Contact ---------- */
+.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:24px;align-items:start}
+.cinfo{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.ci{padding:22px;display:grid;gap:10px;align-content:start;min-width:0}
+.ci h3{font-family:var(--f-body);font-size:15px;font-weight:800}
+.ci p{font-size:14px;color:var(--ink-2);overflow-wrap:anywhere}
+.copyline{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.copyline code{font-family:var(--f-mono);font-size:13px;color:var(--ink);user-select:all}
+.copybtn{width:28px;height:28px;border-radius:9px;display:grid;place-items:center;color:var(--ink-3);background:var(--sky)}
+.copybtn:hover{color:var(--blue-d);background:var(--blue-t)}
+.copybtn .ico{width:15px;height:15px}
+.cform{padding:clamp(22px,3vw,36px);display:grid;gap:16px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:900px){.contact-grid{grid-template-columns:1fr}}
+@media (max-width:520px){.cinfo,.row2{grid-template-columns:1fr}}
+
+/* ---------- Footer ---------- */
+.footer{position:relative;margin-top:clamp(70px,9vw,120px);color:#DCE6FF;background:linear-gradient(180deg,#1D3A7A 0%,var(--ink) 100%);padding-top:clamp(70px,8vw,110px)}
+.f-clouds{position:absolute;left:0;right:0;top:-1px;height:70px;overflow:hidden}
+.f-clouds svg{width:100%;height:100%;display:block}
+.f-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr 1fr;gap:28px;padding-bottom:44px}
+.f-grid h4{font-family:var(--f-body);font-size:12.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#fff;margin-bottom:14px}
+.f-grid ul{list-style:none;margin:0;padding:0;display:grid;gap:9px}
+.f-grid a{font-size:14.5px;color:#B9C7EA;transition:color .2s}
+.f-grid a:hover{color:#fff}
+.f-brand p{font-size:14.5px;color:#B9C7EA;margin-top:14px;max-width:36ch}
+.f-brand .brand{color:#fff}
+.f-brand .brand small{color:#9FB0DA}
+.f-bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;padding-block:22px calc(22px + env(safe-area-inset-bottom,0px));border-top:1px solid rgba(255,255,255,.12);font-size:13.5px;color:#9FB0DA}
+@media (max-width:900px){.f-grid{grid-template-columns:1fr 1fr}.f-brand{grid-column:1/-1}}
+
+/* ---------- Modal ---------- */
+.modal{position:fixed;inset:0;z-index:90;display:grid;place-items:center;padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.modal-bg{position:absolute;inset:0;background:rgba(15,27,61,.35);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);animation:fadein .3s ease both}
+.modal-card{position:relative;width:min(860px,100%);max-height:calc(100dvh - 32px);overflow:auto;border-radius:36px;background:var(--sky);box-shadow:30px 40px 80px rgba(15,27,61,.3),inset -8px -10px 20px rgba(59,130,246,.06),inset 8px 8px 16px #fff;animation:modalin .6s var(--spring) both}
+@keyframes modalin{from{opacity:0;transform:translateY(40px) scale(.94)}to{opacity:1;transform:none}}
+.m-head{position:sticky;top:0;z-index:3;padding:22px clamp(18px,3.5vw,36px) 16px;background:linear-gradient(var(--sky) 80%,rgba(245,249,255,0))}
+.m-title{display:flex;justify-content:space-between;align-items:center;gap:14px}
+.m-title h2{font-size:clamp(20px,2.4vw,26px);font-weight:800}
+.m-title small{display:block;font-size:12.5px;color:var(--ink-3);font-weight:600;margin-top:4px;font-family:var(--f-body);letter-spacing:0}
+.saved{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;color:var(--mint-d)}
+.saved .ico{width:15px;height:15px;stroke-width:3}
+.pbar{margin-top:16px;height:12px;border-radius:999px;background:var(--sky-2);box-shadow:inset 3px 3px 6px rgba(52,92,170,.18),inset -3px -3px 6px #fff;overflow:hidden}
+.pbar i{display:block;height:100%;width:20%;border-radius:999px;background:linear-gradient(90deg,var(--mint),var(--blue-2),var(--lav));transition:width .7s var(--spring)}
+.steps-mini{display:flex;justify-content:space-between;gap:6px;margin-top:12px;font-size:12px;font-weight:700;color:var(--ink-3)}
+.steps-mini span.on{color:var(--blue-d)}
+.steps-mini span.ok{color:var(--mint-d)}
+.m-body{padding:6px clamp(18px,3.5vw,36px) 10px}
+.m-step{display:grid;gap:16px;animation:panelin .5s var(--spring)}
+.m-step h3{font-size:20px;font-weight:800}
+.m-step > p{color:var(--ink-2);font-size:14.5px;margin-top:-8px}
+.m-foot{position:sticky;bottom:0;z-index:3;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:16px clamp(18px,3.5vw,36px) 22px;background:linear-gradient(rgba(245,249,255,0),var(--sky) 30%)}
+.chk{display:flex;align-items:flex-start;gap:12px;font-size:14px;color:var(--ink-2);cursor:pointer}
+.chk input{appearance:none;width:24px;height:24px;flex:none;border-radius:8px;background:var(--sky);box-shadow:inset 3px 3px 6px rgba(52,92,170,.18),inset -3px -3px 6px #fff;display:grid;place-items:center;margin:0;cursor:pointer;transition:background .2s}
+.chk input:checked{background:linear-gradient(180deg,#5BE3B0,#1FB27F);box-shadow:3px 4px 8px rgba(16,185,129,.3)}
+.chk input:checked::after{content:"";width:6px;height:11px;border:solid #fff;border-width:0 3px 3px 0;rotate:45deg;margin-top:-3px}
+.chips-check{display:flex;flex-wrap:wrap;gap:8px}
+.chips-check label{position:relative}
+.chips-check input{position:absolute;opacity:0;inset:0;cursor:pointer}
+.chips-check span{display:inline-block;padding:9px 15px;border-radius:999px;font-size:13.5px;font-weight:700;color:var(--ink-2);background:#fff;box-shadow:4px 5px 10px rgba(52,92,170,.1),inset -2px -2px 5px rgba(15,27,61,.04),inset 2px 2px 5px #fff;transition:all .25s}
+.chips-check input:checked + span{color:var(--blue-d);background:var(--blue-t);box-shadow:inset 3px 4px 8px rgba(59,130,246,.22),inset -3px -3px 7px #fff}
+.chips-check input:focus-visible + span{outline:3px solid var(--blue);outline-offset:2px}
+.drop{position:relative;display:grid;justify-items:center;gap:10px;text-align:center;padding:34px 20px;border-radius:28px;background:#fff;border:2px dashed #BFD3F5;transition:all .3s var(--spring);cursor:pointer}
+.drop:hover{border-color:var(--blue-2)}
+.drop.over{background:var(--blue-t);border-color:var(--blue);animation:wobble .6s ease-in-out infinite}
+@keyframes wobble{0%,100%{transform:rotate(0) scale(1.01)}25%{transform:rotate(-.8deg) scale(1.02)}75%{transform:rotate(.8deg) scale(1.02)}}
+.drop input{position:absolute;inset:0;opacity:0;cursor:pointer}
+.drop b{font-size:16px}
+.drop span{font-size:13px;color:var(--ink-3)}
+.files{display:grid;gap:10px}
+.fchip{display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:18px;background:#fff;box-shadow:5px 6px 14px rgba(52,92,170,.1);animation:panelin .4s var(--spring)}
+.fchip .bubble{width:40px;height:40px;border-radius:14px}
+.fchip .bubble .ico{width:19px;height:19px}
+.fchip .fn{flex:1;min-width:0}
+.fchip .fn b{display:block;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fchip .fn span{font-size:12px;color:var(--ink-3)}
+.fring{width:30px;height:30px;flex:none}
+.fring circle{fill:none;stroke-width:4}
+.fring .bg{stroke:var(--sky-2)}
+.fring .fg{stroke:var(--blue);stroke-linecap:round;stroke-dasharray:75.4;transform:rotate(-90deg);transform-origin:center;transition:stroke-dashoffset .2s linear,stroke .3s}
+.fring.done .fg{stroke:var(--mint)}
+.xbtn{width:32px;height:32px;border-radius:10px;display:grid;place-items:center;color:var(--ink-3)}
+.xbtn:hover{background:var(--coral-t);color:var(--coral-d)}
+.xbtn .ico{width:17px;height:17px}
+.photo-row{display:flex;gap:14px;align-items:center}
+.photo-prev{width:68px;height:68px;border-radius:22px;flex:none;display:grid;place-items:center;color:var(--ink-3);background:var(--sky);box-shadow:inset 3px 3px 7px rgba(52,92,170,.15),inset -3px -3px 7px #fff;overflow:hidden}
+.photo-prev img{width:100%;height:100%;object-fit:cover}
+.range-row{display:flex;align-items:center;gap:14px}
+input[type=range]{flex:1;appearance:none;height:12px;border-radius:999px;background:var(--sky-2);box-shadow:inset 3px 3px 6px rgba(52,92,170,.18),inset -3px -3px 6px #fff;outline:none}
+input[type=range]::-webkit-slider-thumb{appearance:none;width:28px;height:28px;border-radius:50%;background:linear-gradient(180deg,#7DB3FF,var(--blue));box-shadow:4px 5px 10px rgba(59,130,246,.4),inset 2px 3px 5px rgba(255,255,255,.45);cursor:pointer}
+input[type=range]::-moz-range-thumb{width:28px;height:28px;border:0;border-radius:50%;background:var(--blue);cursor:pointer}
+.range-row output{font-family:var(--f-display);font-weight:800;min-width:66px;text-align:right;font-variant-numeric:tabular-nums}
+.sum{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.sum div{padding:14px 16px;border-radius:18px;background:#fff;box-shadow:5px 6px 14px rgba(52,92,170,.08)}
+.sum small{display:block;font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3)}
+.sum b{font-size:14.5px;overflow-wrap:anywhere}
+.sigpad{position:relative;height:150px;border-radius:22px;background:#fff;box-shadow:inset 3px 3px 8px rgba(52,92,170,.12)}
+.sigpad canvas{width:100%;height:100%;display:block;border-radius:22px;touch-action:none;cursor:crosshair}
+.sigpad .ph{position:absolute;inset:auto 0 18px;text-align:center;font-size:13px;color:var(--ink-3);pointer-events:none;border-top:1.5px dashed var(--line);margin:0 24px;padding-top:6px}
+.sigpad .clear{position:absolute;top:10px;right:10px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.success{display:grid;justify-items:center;text-align:center;gap:16px;padding:20px 0 30px}
+.bigcheck{width:120px;height:120px;border-radius:40px;display:grid;place-items:center;color:#fff;background:radial-gradient(120% 120% at 30% 25%,#7EF0C4,#1FB27F);box-shadow:20px 26px 44px rgba(16,185,129,.4),inset -8px -10px 18px rgba(6,110,74,.3),inset 8px 8px 16px rgba(255,255,255,.45);animation:inflate .9s var(--spring) both}
+.bigcheck .ico{width:60px;height:60px;stroke-width:3;stroke-dasharray:30;stroke-dashoffset:30;animation:checkdraw .6s .5s var(--ease) forwards}
+@keyframes inflate{0%{transform:scale(.2) rotate(-20deg);opacity:0}100%{transform:none;opacity:1}}
+@keyframes checkdraw{to{stroke-dashoffset:0}}
+.appid{font-family:var(--f-mono);font-weight:600;font-size:clamp(16px,2.6vw,22px);padding:12px 18px;border-radius:16px;background:#fff;box-shadow:inset 0 0 0 1.5px var(--line);user-select:all}
+#confetti{position:fixed;inset:0;pointer-events:none;z-index:120;width:100%;height:100%}
+@media (max-width:560px){.grid2,.sum{grid-template-columns:1fr}.steps-mini span:not(.on){display:none}}
+
+/* ---------- Toast ---------- */
+.toasts{position:fixed;left:50%;translate:-50% 0;bottom:calc(20px + env(safe-area-inset-bottom,0px));z-index:130;display:grid;gap:10px;width:min(440px,calc(100% - 32px))}
+.toast{display:flex;align-items:center;gap:12px;padding:14px 16px;border-radius:20px;background:var(--ink);color:#fff;font-size:14px;font-weight:600;box-shadow:12px 18px 40px rgba(15,27,61,.3);animation:toastin .5s var(--spring) both}
+.toast .ico{color:var(--mint);flex:none}
+@keyframes toastin{from{opacity:0;transform:translateY(20px) scale(.95)}to{opacity:1;transform:none}}
+
+/* ---------- Reduced motion ---------- */
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-delay:0s!important;animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+  .fp .trail{stroke-dashoffset:0}
+  html.js .rv.pre{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+
+<!-- ===== Icon sprite ===== -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="sealG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4C8DFF"/><stop offset="1" stop-color="#1E3A8A"/></linearGradient>
+    <linearGradient id="wingG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#60A5FA"/><stop offset="1" stop-color="#2563EB"/></linearGradient>
+    <linearGradient id="tlg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF7A6B"/><stop offset=".5" stop-color="#A78BFA"/><stop offset="1" stop-color="#3B82F6"/></linearGradient>
+  </defs>
+  <symbol id="seal" viewBox="0 0 100 100">
+    <circle cx="50" cy="50" r="49" fill="url(#sealG)"/>
+    <circle cx="50" cy="50" r="44" fill="none" stroke="#fff" stroke-opacity=".45" stroke-width=".7"/>
+    <path id="sealArc" d="M50 50 m-37 0 a37 37 0 1 1 74 0 a37 37 0 1 1 -74 0" fill="none"/>
+    <text font-family="Sora, sans-serif" font-size="5.6" font-weight="700" fill="#fff" letter-spacing=".6"><textPath href="#sealArc" textLength="226" lengthAdjust="spacingAndGlyphs">UNITED STATES SPORTS MEDICINE FEDERATION ★ AIR SPORTS ★</textPath></text>
+    <circle cx="50" cy="50" r="29" fill="#fff"/>
+    <circle cx="50" cy="50" r="26.5" fill="#F5F9FF" stroke="#DCE6F7" stroke-width=".8"/>
+    <path d="M45 53c-6.5.5-12.5-2-16-7 4.2 1.3 8.4 1.4 11.6.4-3.2-.4-6.4-2.4-7.6-4.8 4.4 1.6 8.8 1.8 12 1.6z" fill="url(#wingG)"/>
+    <path d="M55 53c6.5.5 12.5-2 16-7-4.2 1.3-8.4 1.4-11.6.4 3.2-.4 6.4-2.4 7.6-4.8-4.4 1.6-8.8 1.8-12 1.6z" fill="url(#wingG)"/>
+    <rect x="46.2" y="35" width="7.6" height="23" rx="2.4" fill="#FF7A6B"/>
+    <rect x="39" y="42.7" width="22" height="7.6" rx="2.4" fill="#FF7A6B"/>
+    <text x="50" y="68.5" text-anchor="middle" font-family="Sora, sans-serif" font-size="6.2" font-weight="800" fill="#0F1B3D" letter-spacing=".4">USSMF</text>
+  </symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/></symbol>
+  <symbol id="i-trophy" viewBox="0 0 24 24"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0zM7 6H4.5a3 3 0 0 0 3 4.2M17 6h2.5a3 3 0 0 1-3 4.2"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.6-3.4 8-8 9-4.6-1-8-4.4-8-9V6z"/><path d="M9 12l2 2 4-4"/></symbol>
+  <symbol id="i-steth" viewBox="0 0 24 24"><path d="M6 3H5v6a4 4 0 0 0 8 0V3h-1"/><path d="M9 13v2a5 5 0 0 0 10 0v-3"/><circle cx="19" cy="10" r="2"/></symbol>
+  <symbol id="i-pulse" viewBox="0 0 24 24"><path d="M2 12h4l2.5-6 4 12 2.5-6H22"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-8.5-5.2-8.5-11A4.8 4.8 0 0 1 12 6.2 4.8 4.8 0 0 1 20.5 9c0 5.8-8.5 11-8.5 11z"/></symbol>
+  <symbol id="i-flask" viewBox="0 0 24 24"><path d="M9 3h6M10 3v6l-5.5 9.6A2 2 0 0 0 6.2 21.5h11.6a2 2 0 0 0 1.7-2.9L14 9V3M7 15h10"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2.5"/><path d="M9 4V2.8h6V4M9 10h6M9 14h6M9 18h3"/></symbol>
+  <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></symbol>
+  <symbol id="i-micro" viewBox="0 0 24 24"><path d="M6 21h12M9 17.5h6M10.5 3.5l4 2-3 6-4-2zM12.5 11.5a5 5 0 0 1 2.5 9.5M8.5 9.5 7 12.5"/></symbol>
+  <symbol id="i-dna" viewBox="0 0 24 24"><path d="M7 3c0 6 10 6 10 12s-10 3-10 6M17 3c0 6-10 6-10 12M17 21c0-1.5-.6-2.6-1.6-3.4M9 7h6M9 17h6M10 12h4"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v15H6a2 2 0 0 0-2 2zM4 20a2 2 0 0 0 2 2h13v-4"/><path d="M9 7h6"/></symbol>
+  <symbol id="i-medal" viewBox="0 0 24 24"><circle cx="12" cy="15" r="6"/><path d="M8.5 10 6 3h4l2 4.5L14 3h4l-2.5 7M12 12.5l.9 1.8 2 .3-1.4 1.4.3 2-1.8-.9-1.8.9.3-2-1.4-1.4 2-.3z"/></symbol>
+  <symbol id="i-cross" viewBox="0 0 24 24"><path d="M9.5 3h5v6.5H21v5h-6.5V21h-5v-6.5H3v-5h6.5z"/></symbol>
+  <symbol id="i-scale" viewBox="0 0 24 24"><path d="M12 3v18M7 21h10M5 7h14M5 7l-3 6a3 3 0 0 0 6 0zM19 7l-3 6a3 3 0 0 0 6 0z"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="17" cy="9" r="2.5"/><path d="M16.5 14a5 5 0 0 1 5 5"/></symbol>
+  <symbol id="i-building" viewBox="0 0 24 24"><path d="M3 21h18M5 21V9.5L12 4l7 5.5V21M9 21v-6h6v6M8 11h.01M12 11h.01M16 11h.01"/></symbol>
+  <symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 16V4M7 9l5-5 5 5M4 16v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></symbol>
+  <symbol id="i-qr" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><path d="M14 14h3v3h-3zM20 14v.01M17 20h4M20 17v3"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3.5 7l8.5 6 8.5-6"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2.5"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol>
+  <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2"/></symbol>
+  <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></symbol>
+  <symbol id="i-rocket" viewBox="0 0 24 24"><path d="M5 15c-1.5 1.5-2 4-2 6 2 0 4.5-.5 6-2M9 15l-3-3c1.2-4.5 4.6-8.3 12-9-.7 7.4-4.5 10.8-9 12zM6 12H3l2-4h4M12 18v3l4-2v-4"/><circle cx="15" cy="9" r="1.5"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2.5"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2.5"/><path d="M5 15V6a2 2 0 0 1 2-2h8"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v12M7 11l5 5 5-5M4 20h16"/></symbol>
+  <symbol id="i-share" viewBox="0 0 24 24"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="M8.2 10.8l7.6-4.4M8.2 13.2l7.6 4.4"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+  <symbol id="i-clip" viewBox="0 0 24 24"><path d="M20 11.5l-8.2 8.2a5 5 0 0 1-7-7l8.5-8.5a3.3 3.3 0 0 1 4.7 4.7L9.7 17.2a1.7 1.7 0 0 1-2.4-2.4l7.6-7.6"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3l10 18H2z"/><path d="M12 10v4M12 17.5v.01"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-plane" viewBox="0 0 24 24"><path d="M21 3L3 10.5l7 2.5 2.5 7z"/><path d="M10 13l11-10"/></symbol>
+  <symbol id="i-wings" viewBox="0 0 24 24"><path d="M12 7v13M3 8c3 0 6 1 9 4 3-3 6-4 9-4M5 12c2 0 4.5.6 7 2.5 2.5-1.9 5-2.5 7-2.5"/><circle cx="12" cy="5" r="1.6"/></symbol>
+  <!-- air sports -->
+  <symbol id="i-parachute" viewBox="0 0 24 24"><path d="M3 10.5a9 7 0 0 1 18 0"/><path d="M3 10.5c1.5-1.2 3-1.2 4.5 0 1.5-1.2 3-1.2 4.5 0 1.5-1.2 3-1.2 4.5 0 1.5-1.2 3-1.2 4.5 0"/><path d="M3.2 10.8 11 18M20.8 10.8 13 18M12 10.5V18"/><rect x="10.5" y="18" width="3" height="3.5" rx="1"/></symbol>
+  <symbol id="i-paraglider" viewBox="0 0 24 24"><path d="M2 8.5C5 4 19 4 22 8.5"/><path d="M2 8.5c3-1.4 17-1.4 20 0"/><path d="M4.5 8.8 11 17.5M19.5 8.8 13 17.5M12 7.6v9.9"/><circle cx="12" cy="19.4" r="1.8"/></symbol>
+  <symbol id="i-hang" viewBox="0 0 24 24"><path d="M2 11 12 5l10 6-10 2z"/><path d="M12 13v4M8.5 17h7M12 17l-1.6 4M12 17l1.6 4"/></symbol>
+  <symbol id="i-glider" viewBox="0 0 24 24"><path d="M1.5 11.5 11 11h2l9.5.5"/><path d="M9 11l1.5-3.5h3L15 11M11 11.5l.7 5.5h.6l.7-5.5M9.5 17.5h5"/></symbol>
+  <symbol id="i-balloon" viewBox="0 0 24 24"><path d="M12 2.5a7 7 0 0 0-7 7c0 4 4 7 5 8.5h4c1-1.5 5-4.5 5-8.5a7 7 0 0 0-7-7z"/><path d="M12 2.5c-2 2-3 4.6-3 7s1 5.5 1 8.5M12 2.5c2 2 3 4.6 3 7s-1 5.5-1 8.5"/><rect x="10" y="19" width="4" height="3" rx=".8"/></symbol>
+  <symbol id="i-drone" viewBox="0 0 24 24"><circle cx="5.5" cy="5.5" r="2.6"/><circle cx="18.5" cy="5.5" r="2.6"/><circle cx="5.5" cy="18.5" r="2.6"/><circle cx="18.5" cy="18.5" r="2.6"/><rect x="9" y="9" width="6" height="6" rx="1.8"/><path d="M7.5 7.5 9 9M16.5 7.5 15 9M7.5 16.5 9 15M16.5 16.5 15 15"/></symbol>
+  <symbol id="i-aero" viewBox="0 0 24 24"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z"/></symbol>
+  <symbol id="i-paramotor" viewBox="0 0 24 24"><path d="M3 7.5C6 4 18 4 21 7.5"/><path d="M5.5 8 10.5 15M18.5 8 13.5 15"/><circle cx="12" cy="17.5" r="3.3"/><path d="M12 14.2v6.6M8.7 17.5h6.6"/></symbol>
+</svg>
+
+<!-- ===== Header ===== -->
+<header class="site-header" id="header">
+  <div class="wrap">
+    <nav class="nav glass" aria-label="Main">
+      <a class="brand" href="#hero" aria-label="U.S.S.M.F. home">
+        <span class="logo-slot"><svg viewBox="0 0 100 100"><use href="#seal"/></svg><img src="assets/logo.jpg" alt="" onerror="this.remove()"></span>
+        <span>U.S.S.M.F.<small>Sports Medicine Federation</small></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#certification">Certification</a></li>
+        <li><a href="#founder">Founder</a></li>
+        <li><a href="#mission">Mission</a></li>
+        <li><a href="#allied">Allied</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a class="verify" href="#verify">Verify</a>
+        <button class="btn btn-primary btn-sm" data-open-apply>Apply Now</button>
+        <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><svg class="ico"><use href="#i-menu"/></svg></button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<div class="mnav" id="mnav" hidden role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="mnav-top">
+    <span class="brand"><span class="logo-slot"><svg viewBox="0 0 100 100"><use href="#seal"/></svg></span>U.S.S.M.F.</span>
+    <button class="round" id="mclose" aria-label="Close menu"><svg class="ico"><use href="#i-x"/></svg></button>
+  </div>
+  <a class="ml clay-sm" style="--i:1" href="#about">About <svg class="ico"><use href="#i-arrow"/></svg></a>
+  <a class="ml clay-sm" style="--i:2" href="#services">Services <svg class="ico"><use href="#i-arrow"/></svg></a>
+  <a class="ml clay-sm" style="--i:3" href="#certification">Certification <svg class="ico"><use href="#i-arrow"/></svg></a>
+  <a class="ml clay-sm" style="--i:4" href="#verify">Verify a Certificate <svg class="ico"><use href="#i-arrow"/></svg></a>
+  <a class="ml clay-sm" style="--i:5" href="#founder">Founder <svg class="ico"><use href="#i-arrow"/></svg></a>
+  <a class="ml clay-sm" style="--i:6" href="#mission">Mission <svg class="ico"><use href="#i-arrow"/></svg></a>
+  <a class="ml clay-sm" style="--i:7" href="#allied">Allied <svg class="ico"><use href="#i-arrow"/></svg></a>
+  <a class="ml clay-sm" style="--i:8" href="#contact">Contact <svg class="ico"><use href="#i-arrow"/></svg></a>
+  <button class="btn btn-primary" data-open-apply style="margin-top:8px">Apply for Certificate <svg class="ico arrow"><use href="#i-arrow"/></svg></button>
+</div>
+
+<main>
+<!-- ===== HERO ===== -->
+<section class="hero" id="hero">
+  <div class="hero-sky" aria-hidden="true">
+    <div class="sunglow"></div><div class="lavglow"></div>
+    <div class="c-wrap" style="left:3%;top:16%;--t:46s"><div class="cloud" style="--w:170px;--dp:-14"></div></div>
+    <div class="c-wrap" style="left:38%;top:9%;--t:60s"><div class="cloud" style="--w:110px;--dp:-6;--o:.8"></div></div>
+    <div class="c-wrap" style="right:4%;top:30%;--t:52s"><div class="cloud" style="--w:220px;--dp:-22"></div></div>
+    <div class="c-wrap" style="left:-3%;bottom:14%;--t:58s"><div class="cloud" style="--w:240px;--dp:-26"></div></div>
+    <div class="c-wrap" style="left:44%;bottom:5%;--t:40s"><div class="cloud" style="--w:150px;--dp:-12;--o:.9"></div></div>
+    <div class="c-wrap" style="right:18%;bottom:20%;--t:66s"><div class="cloud" style="--w:90px;--dp:-5;--o:.75"></div></div>
+    <i class="spark" style="left:12%;bottom:12%;--t:10s;--dl:.5s"></i>
+    <i class="spark" style="left:31%;bottom:22%;--t:12s;--dl:3s"></i>
+    <i class="spark" style="left:57%;bottom:8%;--t:9s;--dl:1.5s"></i>
+    <i class="spark" style="left:78%;bottom:26%;--t:11s;--dl:5s"></i>
+    <i class="spark" style="left:90%;bottom:10%;--t:13s;--dl:2s"></i>
+  </div>
+
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <div><span class="pill" style="animation:fadeup .7s var(--ease) both"><i class="dot"></i> Launching Phase IV · Air Sports Medicine</span></div>
+      <h1 class="hero-h">
+        <span class="w" style="--i:0">Fit</span> <span class="w" style="--i:1">to</span> <span class="w fly" style="--i:2">Fly.<svg class="plane" viewBox="0 0 24 24" aria-hidden="true"><path d="M21.5 2.5 2.5 10l7.2 2.6L12.3 20z" fill="#fff" stroke="#3B82F6" stroke-width="1.6" stroke-linejoin="round"/><path d="M9.7 12.6 21.5 2.5 12.3 20l-1.2-5.3z" fill="#DCE9FF" stroke="#3B82F6" stroke-width="1.6" stroke-linejoin="round"/></svg></span><br>
+        <span class="w" style="--i:3">Certified</span> <span class="w" style="--i:4">by</span> <span class="w" style="--i:5">Science.</span>
+      </h1>
+      <p class="lede">The United States Sports Medicine Federation protects air-sports athletes with evidence-based medical review, injury prevention, rehabilitation and an official fitness certificate recognized across the sport.</p>
+      <div class="cta-row">
+        <button class="btn btn-primary" data-open-apply>Apply for Certificate <svg class="ico arrow"><use href="#i-arrow"/></svg></button>
+        <a class="btn btn-glass" href="#verify"><svg class="ico"><use href="#i-qr"/></svg> Verify a Certificate</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hstat clay-sm t-blue"><b data-count="2025" data-plain>2025</b><span>Founded</span></div>
+        <div class="hstat clay-sm t-coral"><b data-count="50">50</b><span>States in our vision</span></div>
+        <div class="hstat clay-sm t-mint"><b data-count="100" data-suffix="%">100%</b><span>Athlete focused</span></div>
+      </div>
+      <div class="allied-strip">
+        <span>Allied with</span>
+        <span class="ally-badge t-blue"><span class="mono-badge">WASF<img src="assets/wasflogo.png" alt="" onerror="this.remove()"></span>W.A.S.F.</span>
+        <span class="ally-badge t-coral"><span class="mono-badge">USASF<img src="assets/usasflogo.jpg" alt="" onerror="this.remove()"></span>U.S.A.S.F.</span>
+      </div>
+    </div>
+
+    <div class="hero-scene" id="scene">
+      <svg class="fp" viewBox="0 0 560 560" aria-hidden="true">
+        <defs>
+          <linearGradient id="fpg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="320" y2="0"><stop offset="0" stop-color="#FF7A6B"/><stop offset=".55" stop-color="#FF7A6B"/><stop offset="1" stop-color="#3B82F6"/></linearGradient>
+          <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4"/></filter>
+        </defs>
+        <path id="flightPath" class="trail" d="M-10 330 H52 L66 330 L76 296 L88 368 L102 228 L118 410 L132 330 H176 C238 330 250 470 340 474 C452 480 548 384 520 262 C496 150 378 116 312 150 C246 184 230 66 318 34 C372 14 420 6 486 -18" fill="none" stroke="url(#fpg)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path class="dashes" d="M176 330 C238 330 250 470 340 474 C452 480 548 384 520 262 C496 150 378 116 312 150 C246 184 230 66 318 34 C372 14 420 6 486 -18" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="2 14" stroke-linecap="round"/>
+        <g class="runner">
+          <circle r="11" fill="#60A5FA" opacity=".55" filter="url(#glow)"><animateMotion dur="7s" repeatCount="indefinite" rotate="auto"><mpath href="#flightPath"/></animateMotion></circle>
+          <circle r="6" fill="#fff" stroke="#3B82F6" stroke-width="3"><animateMotion dur="7s" repeatCount="indefinite" rotate="auto"><mpath href="#flightPath"/></animateMotion></circle>
+        </g>
+      </svg>
+
+      <div class="cert-stage" id="certStage">
+        <div class="cert-drop"><div class="cert-bob">
+          <article class="hcert" id="hcert" aria-label="Sample U.S.S.M.F. Medical Fitness Certificate">
+            <div class="holo"></div>
+            <div class="hc-top">
+              <span class="logo-slot"><svg viewBox="0 0 100 100"><use href="#seal"/></svg><img src="assets/logo.jpg" alt="" onerror="this.remove()"></span>
+              <div class="hc-org">U.S.S.M.F.<small>Air Sports Division</small></div>
+              <span class="demo-tag" style="margin-left:auto">Sample</span>
+            </div>
+            <div class="hc-title">Medical Fitness Certificate</div>
+            <div class="hc-body">
+              <div class="avatar">AR</div>
+              <div class="hc-meta"><b>Alex Rivera</b><span>Paragliding · Class 2 · Sport</span><span>Valid to Oct 2027</span></div>
+            </div>
+            <div class="hc-foot">
+              <span class="fit-badge"><svg class="ico"><use href="#i-check"/></svg>FIT TO FLY</span>
+              <div class="qr" data-qr="USSMF-AS-2026-10482"></div>
+            </div>
+          </article>
+        </div></div>
+      </div>
+
+      <div class="chip-orbit" id="orbit">
+        <button class="dchip t-coral" style="--s:66px" data-disc="skydiving" aria-label="Skydiving"><svg class="ico"><use href="#i-parachute"/></svg><span class="tip">Skydiving</span></button>
+        <button class="dchip t-blue" style="--s:62px" data-disc="paragliding" aria-label="Paragliding"><svg class="ico"><use href="#i-paraglider"/></svg><span class="tip">Paragliding</span></button>
+        <button class="dchip t-sun" style="--s:58px" data-disc="ballooning" aria-label="Ballooning"><svg class="ico"><use href="#i-balloon"/></svg><span class="tip">Ballooning</span></button>
+        <button class="dchip t-lav" style="--s:62px" data-disc="drone" aria-label="Drone racing"><svg class="ico"><use href="#i-drone"/></svg><span class="tip">Drone Racing</span></button>
+        <button class="dchip t-mint" style="--s:60px" data-disc="gliding" aria-label="Gliding"><svg class="ico"><use href="#i-glider"/></svg><span class="tip">Gliding</span></button>
+        <button class="dchip t-blue" style="--s:56px" data-disc="aerobatics" aria-label="Aerobatics"><svg class="ico"><use href="#i-aero"/></svg><span class="tip">Aerobatics</span></button>
+      </div>
+
+      <div class="gw glass gw-heart">
+        <span class="heart-ic"><svg class="ico"><use href="#i-heart"/></svg></span>
+        <span>Resting heart rate<b><span id="bpm">62</span> bpm</b></span>
+      </div>
+      <div class="gw glass gw-status">
+        <svg class="ring" viewBox="0 0 40 40"><circle class="bg" cx="20" cy="20" r="17"/><circle class="fg" cx="20" cy="20" r="17"/></svg>
+        <span>Physician review<b style="color:var(--mint-d)">Approved</b></span>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-cue" aria-hidden="true"><i></i>Scroll</div>
+</section>
+
+<!-- ===== PHASE BAND ===== -->
+<section class="phase" aria-labelledby="phase-h">
+  <div class="wrap">
+    <div class="phase-card clay rv">
+      <div>
+        <span class="eyebrow t-coral"><svg class="ico" style="width:16px;height:16px"><use href="#i-heart"/></svg> Official announcement</span>
+        <h2 id="phase-h">The future of air sports medicine in America is coming.</h2>
+        <p>We are preparing a nationwide sports medicine ecosystem focused on athlete safety, injury prevention, rehabilitation, insurance protection, research and education.</p>
+      </div>
+      <div class="track" id="phaseTrack" aria-label="Launch progress: Phases I to III complete, Phase IV in progress">
+        <span class="fillbar"></span>
+        <div class="ph"><span class="knob">I</span>Foundation<small>Complete</small></div>
+        <div class="ph"><span class="knob">II</span>Framework<small>Complete</small></div>
+        <div class="ph"><span class="knob">III</span>Leadership<small>Complete</small></div>
+        <div class="ph now"><span class="knob">IV</span>Nationwide launch<small>In progress</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="sec" id="about">
+  <div class="blob" style="width:420px;height:420px;background:var(--lav-t);right:-120px;top:60px"></div>
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-copy rv">
+        <span class="eyebrow t-blue" style="justify-self:start">About U.S.S.M.F.</span>
+        <h2 class="h2">Protecting athletes at <span class="grad">every altitude.</span></h2>
+        <p>The United States Sports Medicine Federation is dedicated to maintaining and promoting athlete health, preventing injuries, providing rehabilitation services, supporting research and education, and ensuring access to sports insurance and medical protection.</p>
+        <p>From elite aerobatic pilots to weekend paraglider pilots and youth drone racers, U.S.S.M.F. delivers a unified, trusted, science-backed framework that every American athlete deserves.</p>
+        <div><a class="link-btn" href="#services">Explore our services <svg class="ico"><use href="#i-arrow"/></svg></a></div>
+      </div>
+      <div class="bento">
+        <div class="btile big clay t-blue rv" style="--d:.05s">
+          <span class="bubble lg"><svg class="ico"><use href="#i-globe"/></svg></span>
+          <div class="bignum" data-count="50">50</div>
+          <h3>National coverage vision</h3>
+          <p>A coast-to-coast network of physicians, clinics and state boards serving athletes in every state.</p>
+        </div>
+        <div class="btile clay t-sun rv" style="--d:.12s">
+          <span class="bubble"><svg class="ico"><use href="#i-star"/></svg></span>
+          <h3>Elite</h3>
+          <p>Medical standards built for the demands of flight.</p>
+        </div>
+        <div class="btile clay t-lav rv" style="--d:.19s">
+          <span class="bubble"><svg class="ico"><use href="#i-micro"/></svg></span>
+          <h3>Research</h3>
+          <p>Driven programs that turn data into safer sport.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="marquee" aria-label="Our values">
+    <div class="marquee-track" id="marquee">
+      <span class="vpill clay-sm t-blue"><span class="bubble"><svg class="ico"><use href="#i-dna"/></svg></span>Evidence-Based</span>
+      <span class="vpill clay-sm t-sun"><span class="bubble"><svg class="ico"><use href="#i-medal"/></svg></span>Sovereign Excellence</span>
+      <span class="vpill clay-sm t-mint"><span class="bubble"><svg class="ico"><use href="#i-shield"/></svg></span>Athlete Protection</span>
+      <span class="vpill clay-sm t-lav"><span class="bubble"><svg class="ico"><use href="#i-book"/></svg></span>Research-Driven</span>
+      <span class="vpill clay-sm t-coral"><span class="bubble"><svg class="ico"><use href="#i-globe"/></svg></span>Nationwide</span>
+      <span class="vpill clay-sm t-blue"><span class="bubble"><svg class="ico"><use href="#i-cross"/></svg></span>Medical Excellence</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section class="sec" id="services" style="padding-top:clamp(40px,6vw,80px)">
+  <div class="wrap">
+    <div class="sec-head center rv">
+      <span class="eyebrow t-mint">What we do</span>
+      <h2 class="h2">Comprehensive <span class="grad">air sports medicine.</span></h2>
+      <p class="sub">Six pillars of athlete care, from the first pre-flight screening to the return to competition.</p>
+    </div>
+    <div class="svc-grid">
+      <article class="svc clay t-sun rv tilt">
+        <span class="num">01</span>
+        <span class="bubble lg"><svg class="ico"><use href="#i-trophy"/></svg></span>
+        <h3>Championship &amp; General Medicine</h3>
+        <p>Medical care for athletes from international competition to recreational flying, across every air sports discipline.</p>
+        <a class="link-btn" href="#disciplines">Learn more <svg class="ico"><use href="#i-arrow"/></svg></a>
+      </article>
+      <article class="svc clay t-mint rv tilt" style="--d:.06s">
+        <span class="num">02</span>
+        <span class="bubble lg"><svg class="ico"><use href="#i-shield"/></svg></span>
+        <h3>Injury Prevention</h3>
+        <p>Evidence-based protocols for landing impacts, spinal loading, G-force exposure and hypoxia, applied before injuries happen.</p>
+        <a class="link-btn" href="#disciplines">Learn more <svg class="ico"><use href="#i-arrow"/></svg></a>
+      </article>
+      <article class="svc clay t-blue rv tilt" style="--d:.12s">
+        <span class="num">03</span>
+        <span class="bubble lg"><svg class="ico"><use href="#i-steth"/></svg></span>
+        <h3>Diagnosis &amp; Treatment</h3>
+        <p>Advanced evaluation of flight-related injuries and conditions using current diagnostic technology.</p>
+        <a class="link-btn" href="#certification">Learn more <svg class="ico"><use href="#i-arrow"/></svg></a>
+      </article>
+      <article class="svc clay t-coral rv tilt">
+        <span class="num">04</span>
+        <span class="bubble lg"><svg class="ico"><use href="#i-pulse"/></svg></span>
+        <h3>Rehabilitation</h3>
+        <p>Personalized programs that bring athletes back to the air safely, with clear medical clearance at each stage.</p>
+        <a class="link-btn" href="#certification">Learn more <svg class="ico"><use href="#i-arrow"/></svg></a>
+      </article>
+      <article class="svc clay t-lav rv tilt" style="--d:.06s">
+        <span class="num">05</span>
+        <span class="bubble lg"><svg class="ico"><use href="#i-flask"/></svg></span>
+        <h3>Research &amp; Education</h3>
+        <p>Research, professional education and clinical training that grow the science of air sports medicine.</p>
+        <a class="link-btn" href="#mission">Learn more <svg class="ico"><use href="#i-arrow"/></svg></a>
+      </article>
+      <article class="svc clay t-sun rv tilt" style="--d:.12s">
+        <span class="num">06</span>
+        <span class="bubble lg"><svg class="ico"><use href="#i-doc"/></svg></span>
+        <h3>Insurance &amp; Compensation</h3>
+        <p>Athlete insurance support, accident documentation and compensation assistance for sports-related injuries.</p>
+        <a class="link-btn" href="#related">Learn more <svg class="ico"><use href="#i-arrow"/></svg></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== DISCIPLINES ===== -->
+<section class="sec" id="disciplines" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="eyebrow t-sun">Air sports we cover</span>
+      <h2 class="h2">Every discipline has its own <span class="grad">physiology.</span></h2>
+      <p class="sub">Pick a discipline to see its main medical risks and the screenings our physicians look at during certification.</p>
+    </div>
+    <div class="disc-tabs" role="tablist" aria-label="Air sports disciplines" id="discTabs"></div>
+    <div class="disc-panel clay" id="discPanel" role="tabpanel" aria-live="polite"></div>
+  </div>
+</section>
+
+<!-- ===== CERTIFICATION ===== -->
+<section class="sec cert-sec" id="certification">
+  <div class="blob" style="width:520px;height:520px;background:var(--mint-t);left:-200px;top:200px"></div>
+  <div class="wrap">
+    <div class="sec-head center rv">
+      <span class="eyebrow t-blue">Medical Fitness Certificate</span>
+      <h2 class="h2">Your path to <span class="grad">certified fitness.</span></h2>
+      <p class="sub">Apply online, share your medical records securely, and receive a digital certificate that event organizers and federations can verify in seconds.</p>
+    </div>
+
+    <div class="journey" id="journey">
+      <div class="journey-line" aria-hidden="true">
+        <svg viewBox="0 0 1000 24" preserveAspectRatio="none"><path d="M0 12 C120 -6 180 30 250 12 S380 -6 500 12 S620 30 750 12 S880 -6 1000 12" fill="none" stroke="#DCE6F7" stroke-width="4" stroke-dasharray="3 12" stroke-linecap="round" vector-effect="non-scaling-stroke"/><path id="jprog" d="M0 12 C120 -6 180 30 250 12 S380 -6 500 12 S620 30 750 12 S880 -6 1000 12" fill="none" stroke="url(#tlg)" stroke-width="5" stroke-linecap="round" vector-effect="non-scaling-stroke" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"/></svg>
+      </div>
+      <div class="jstep t-blue"><span class="bubble"><svg class="ico"><use href="#i-user"/></svg></span><span class="n">STEP 1</span><h3>Create profile</h3><p>Your details, discipline and federation membership.</p></div>
+      <div class="jstep t-lav"><span class="bubble"><svg class="ico"><use href="#i-upload"/></svg></span><span class="n">STEP 2</span><h3>Upload records</h3><p>Recent physical, ECG, vision and any specialist reports.</p></div>
+      <div class="jstep t-sun"><span class="bubble"><svg class="ico"><use href="#i-steth"/></svg></span><span class="n">STEP 3</span><h3>Physician review</h3><p>A U.S.S.M.F. physician reviews your file against the standard.</p></div>
+      <div class="jstep t-coral"><span class="bubble"><svg class="ico"><use href="#i-pulse"/></svg></span><span class="n">STEP 4</span><h3>Fitness assessment</h3><p>An in-person or tele-assessment when the review calls for one.</p></div>
+      <div class="jstep t-mint"><span class="bubble"><svg class="ico"><use href="#i-medal"/></svg></span><span class="n">STEP 5</span><h3>Certificate issued</h3><p>A digital certificate with a QR code anyone can verify.</p></div>
+    </div>
+
+    <div class="cert-tools">
+      <div class="tool clay rv" id="eligibility">
+        <div class="tool-head">
+          <span class="bubble t-mint"><svg class="ico"><use href="#i-check"/></svg></span>
+          <h3>Check your eligibility</h3>
+          <p>Four quick questions. Nothing is saved or sent.</p>
+        </div>
+        <div class="q"><span class="q-label">Your discipline</span><div class="opts" data-q="disc"></div></div>
+        <div class="q"><span class="q-label">Age group</span><div class="opts" data-q="age">
+          <button class="opt" data-v="u16">Under 16</button><button class="opt" data-v="16">16–17</button><button class="opt" aria-pressed="true" data-v="adult">18–59</button><button class="opt" data-v="60">60+</button>
+        </div></div>
+        <div class="q"><span class="q-label">Competition level</span><div class="opts" data-q="level">
+          <button class="opt" data-v="rec">Recreational</button><button class="opt" aria-pressed="true" data-v="club">Club</button><button class="opt" data-v="nat">National</button><button class="opt" data-v="intl">International</button>
+        </div></div>
+        <div class="q"><span class="q-label">Any current heart, seizure, vision or inner-ear condition?</span><div class="opts" data-q="cond">
+          <button class="opt" aria-pressed="true" data-v="no">No</button><button class="opt" data-v="yes">Yes</button><button class="opt" data-v="unsure">Not sure</button>
+        </div></div>
+        <div id="eligOut"></div>
+        <button class="btn btn-primary" data-open-apply style="justify-self:start">Start application <svg class="ico arrow"><use href="#i-arrow"/></svg></button>
+      </div>
+
+      <div class="cert-side">
+        <div class="tool clay rv" id="status" style="--d:.06s">
+          <div class="tool-head">
+            <span class="bubble t-blue"><svg class="ico"><use href="#i-clock"/></svg></span>
+            <h3>Track your application</h3>
+            <p>Enter the application ID from your confirmation email.</p>
+          </div>
+          <form class="inline-form" id="statusForm" novalidate>
+            <label class="sr-only" for="stId">Application ID</label>
+            <input class="inp" id="stId" placeholder="USSMF-APP-2026-0000" value="USSMF-APP-2026-3381" autocomplete="off">
+            <button class="btn btn-primary btn-sm" type="submit">Check status</button>
+          </form>
+          <div class="samples"><span class="demo-tag">Demo</span>Try <button type="button" data-st="USSMF-APP-2026-3381">USSMF-APP-2026-3381</button><button type="button" data-st="USSMF-APP-2026-2207">USSMF-APP-2026-2207</button></div>
+          <div class="err" id="stErr"></div>
+          <div id="statusOut"></div>
+        </div>
+
+        <div class="tool clay rv" id="verify" style="--d:.12s">
+          <div class="tool-head">
+            <span class="bubble t-lav"><svg class="ico"><use href="#i-qr"/></svg></span>
+            <h3>Verify a certificate</h3>
+            <p>For event organizers, clubs and federations. Enter the ID printed under the QR code.</p>
+          </div>
+          <form class="inline-form" id="verifyForm" novalidate>
+            <label class="sr-only" for="vId">Certificate ID</label>
+            <input class="inp" id="vId" placeholder="USSMF-AS-2026-00000" value="USSMF-AS-2026-10482" autocomplete="off">
+            <button class="btn btn-primary btn-sm" type="submit"><svg class="ico"><use href="#i-search"/></svg> Verify</button>
+          </form>
+          <div class="samples"><span class="demo-tag">Demo</span>Try <button type="button" data-v="USSMF-AS-2026-10482">Valid</button><button type="button" data-v="USSMF-AS-2025-00731">Expired</button><button type="button" data-v="USSMF-AS-2026-99999">Unknown</button></div>
+          <div class="err" id="vErr"></div>
+          <div id="verifyOut"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cert-show">
+      <div class="paper-wrap rv">
+        <article class="paper" id="paper" aria-label="Sample certificate">
+          <svg class="guil" id="guil" viewBox="0 0 800 520" preserveAspectRatio="xMidYMid slice" aria-hidden="true"></svg>
+          <div class="holo2"></div>
+          <div class="paper-border"></div>
+          <div class="paper-in">
+            <div class="p-top">
+              <span class="brand"><span class="logo-slot"><svg viewBox="0 0 100 100"><use href="#seal"/></svg><img src="assets/logo.jpg" alt="" onerror="this.remove()"></span><span>U.S.S.M.F.<small>United States Sports Medicine Federation</small></span></span>
+              <span class="p-id">ID USSMF-AS-2026-10482</span>
+            </div>
+            <div class="p-title">
+              <small>Air Sports Division</small>
+              <h3>Medical Fitness Certificate</h3>
+              <p>This certifies that the athlete named below has been medically reviewed and found fit to participate in</p>
+            </div>
+            <div class="p-name">Alex Rivera</div>
+            <div class="p-grid">
+              <div><small>Discipline</small><b>Paragliding</b></div>
+              <div><small>Class</small><b>Class 2 · Sport</b></div>
+              <div><small>Issued</small><b>Oct 14, 2026</b></div>
+              <div><small>Expires</small><b>Oct 13, 2027</b></div>
+            </div>
+            <div class="p-foot">
+              <div class="sig">
+                <svg viewBox="0 0 160 44" aria-hidden="true"><path d="M6 30c10-14 18-22 22-18s-8 20-2 20 12-22 18-20-2 18 4 18 10-14 16-14 2 12 8 10 10-10 18-8 6 8 14 6 20-6 32-8" fill="none" stroke="#1E3A8A" stroke-width="2" stroke-linecap="round"/></svg>
+                <span>Reviewing physician · U.S.S.M.F. Medical Board</span>
+              </div>
+              <span class="fit-badge" style="font-size:13px;padding:10px 16px"><svg class="ico"><use href="#i-check"/></svg>FIT TO FLY</span>
+              <div class="qr" data-qr="USSMF-AS-2026-10482"></div>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="cert-copy rv" style="--d:.08s">
+        <span class="eyebrow t-mint" style="justify-self:start">Your certificate</span>
+        <h2 class="h2" style="font-size:clamp(30px,3.6vw,44px)">A credential built to be trusted.</h2>
+        <ul class="checklist">
+          <li><span class="bubble t-mint"><svg class="ico"><use href="#i-check"/></svg></span><span><b>QR verification.</b> Organizers scan and confirm validity on the spot.</span></li>
+          <li><span class="bubble t-blue"><svg class="ico"><use href="#i-lock"/></svg></span><span><b>Security pattern.</b> Guilloche linework and a holographic layer that shifts as you move.</span></li>
+          <li><span class="bubble t-lav"><svg class="ico"><use href="#i-cal"/></svg></span><span><b>Clear validity.</b> Issue and expiry dates with renewal reminders.</span></li>
+        </ul>
+        <div class="btns">
+          <button class="btn btn-primary" id="dlBtn"><svg class="ico"><use href="#i-download"/></svg> Download PDF</button>
+          <button class="btn btn-glass" id="shareBtn"><svg class="ico"><use href="#i-share"/></svg> Copy verify link</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOUNDER ===== -->
+<section class="sec" id="founder">
+  <div class="blob" style="width:460px;height:460px;background:var(--coral-t);right:-160px;top:40px"></div>
+  <div class="wrap">
+    <div class="founder-grid">
+      <div class="f-photo rv">
+        <div class="f-frame">
+          <div class="f-img"><span class="mono">SD</span><img src="assets/sanaz.jpg" alt="Dr. Sanaz Derakhshani Jan, President of U.S.S.M.F." onerror="this.remove()"></div>
+        </div>
+        <span class="f-chip clay-sm t-coral fc1"><span class="bubble"><svg class="ico"><use href="#i-star"/></svg></span>First Persian-Descent President</span>
+        <span class="f-chip clay-sm t-blue fc2" style="--dl:1.2s"><span class="bubble"><svg class="ico"><use href="#i-building"/></svg></span>Founded U.S.S.M.F. 2025</span>
+        <span class="f-chip clay-sm t-mint fc3" style="--dl:2.1s"><span class="bubble"><svg class="ico"><use href="#i-pulse"/></svg></span>Lifelong Athlete</span>
+        <span class="f-chip clay-sm t-lav fc4" style="--dl:.6s"><span class="bubble"><svg class="ico"><use href="#i-steth"/></svg></span>Medical &amp; Therapeutic Expert</span>
+      </div>
+      <div class="f-copy rv" style="--d:.08s">
+        <span class="role">Founder · CEO · President</span>
+        <h2>Dr. Sanaz Derakhshani Jan</h2>
+        <p class="sub">First President of the United States Sports Medicine Federation</p>
+        <p class="bio">Sport has been her passion since childhood. She began competing at age seven in gymnastics, swimming and basketball, and later combined that athletic background with medical and therapeutic education to establish U.S.S.M.F., a first-of-its-kind national institution dedicated entirely to athlete health and performance.</p>
+        <blockquote class="quote clay t-lav"><span class="qm" aria-hidden="true">“</span>An athlete’s greatest victory is the one they live to celebrate.<cite>Dr. Sanaz Derakhshani Jan</cite></blockquote>
+      </div>
+    </div>
+
+    <div class="tl" id="timeline">
+      <div class="tl-title rv">
+        <h3>A path built on passion &amp; purpose.</h3>
+        <span class="eyebrow t-lav">The journey</span>
+      </div>
+      <div class="tl-rail" id="tlRail">
+        <div class="tl-path" aria-hidden="true"><svg viewBox="0 0 1000 60" preserveAspectRatio="none"><path class="base" d="M30 0 C150 60 250 -20 360 20 S560 60 660 10 S860 -10 980 30" vector-effect="non-scaling-stroke"/><path class="prog" id="tlprog" d="M30 0 C150 60 250 -20 360 20 S560 60 660 10 S860 -10 980 30" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"/></svg></div>
+        <div class="tl-item t-coral"><span class="tl-knob">Age 7</span><div><h4>First athletic journey</h4><p>Began competing in gymnastics, swimming and basketball.</p></div></div>
+        <div class="tl-item t-sun"><span class="tl-knob">Youth</span><div><h4>Professional basketball</h4><p>Played at professional level and learned elite athletes’ needs first-hand.</p></div></div>
+        <div class="tl-item t-mint"><span class="tl-knob">Study</span><div><h4>Medical &amp; therapeutic studies</h4><p>Advanced education bridging sport and healthcare.</p></div></div>
+        <div class="tl-item t-lav"><span class="tl-knob">2024</span><div><h4>Vision for U.S.S.M.F.</h4><p>Conceived a national federation to close gaps in athlete health and protection.</p></div></div>
+        <div class="tl-item t-blue"><span class="tl-knob">Phase III</span><div><h4>Founder · CEO · President</h4><p>Established U.S.S.M.F. and became its first president.</p></div></div>
+        <div class="tl-item t-coral"><span class="tl-knob">2026</span><div><h4>National network expansion</h4><p>Launching a coast-to-coast sports medicine network for all 50 states.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MISSION ===== -->
+<section class="sec" id="mission" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head center rv">
+      <span class="eyebrow t-coral">Federation pillars</span>
+      <h2 class="h2">Mission, vision &amp; <span class="grad">goals.</span></h2>
+      <p class="sub">The three commitments behind everything U.S.S.M.F. does.</p>
+    </div>
+    <div class="pillars">
+      <article class="pillar clay t-coral rv"><span class="lbl">Mission</span><span class="bubble lg"><svg class="ico"><use href="#i-target"/></svg></span><h3>Unify American sports medicine</h3><p>Unite American athletes and sports medicine practitioners under trusted, evidence-based standards that protect and elevate every competitor.</p></article>
+      <article class="pillar mid clay t-blue rv" style="--d:.08s;--dl:1.4s"><span class="lbl">Vision</span><span class="bubble lg"><svg class="ico"><use href="#i-eye"/></svg></span><h3>Lead America to excellence</h3><p>Lead America toward international excellence and the highest level of athlete protection by setting the standard in sports medicine and athlete care.</p></article>
+      <article class="pillar clay t-mint rv" style="--d:.16s;--dl:2.6s"><span class="lbl">Goals</span><span class="bubble lg"><svg class="ico"><use href="#i-rocket"/></svg></span><h3>Build safer athletic ecosystems</h3><p>Build safer, fairer, stronger athletic ecosystems while expanding participation and ensuring comprehensive athlete protection nationwide.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== IMPACT ===== -->
+<section class="sec" id="impact" style="padding-top:0">
+  <div class="wrap">
+    <div class="impact">
+      <div style="display:grid;gap:26px">
+        <div class="sec-head rv" style="margin:0">
+          <span class="eyebrow t-blue">Our impact</span>
+          <h2 class="h2">Designed for <span class="grad">national scale.</span></h2>
+          <p class="sub">Network figures go live at launch. These are the building blocks we are launching with.</p>
+        </div>
+        <div class="istats">
+          <div class="istat clay t-blue rv"><b data-count="50">50</b><span>States in the network plan</span></div>
+          <div class="istat clay t-coral rv" style="--d:.06s"><b data-count="8">8</b><span>Air sports disciplines covered</span></div>
+          <div class="istat clay t-mint rv" style="--d:.12s"><b data-count="6">6</b><span>Pillars of athlete care</span></div>
+          <div class="istat clay t-lav rv" style="--d:.18s"><b data-count="100" data-suffix="%">100%</b><span>Athlete-centered approach</span></div>
+        </div>
+      </div>
+      <div class="map-card clay rv" style="--d:.1s">
+        <svg viewBox="0 0 960 600" role="img" aria-label="Stylized map of the United States with regional network hubs">
+          <defs>
+            <linearGradient id="mapG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EEF4FF"/><stop offset="1" stop-color="#DCE8FF"/></linearGradient>
+            <filter id="mapSh" x="-10%" y="-10%" width="130%" height="130%"><feDropShadow dx="14" dy="18" stdDeviation="16" flood-color="#3B82F6" flood-opacity=".18"/></filter>
+            <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="8" cy="8" r="2" fill="#BFD3F5"/></pattern>
+          </defs>
+          <path filter="url(#mapSh)" fill="url(#mapG)" stroke="#fff" stroke-width="18" stroke-linejoin="round" d="M118 92 L300 72 L470 82 L560 94 L600 116 L642 104 L702 132 L756 124 L818 94 L872 82 L902 112 L884 152 L862 172 L834 202 L824 242 L794 284 L782 332 L744 370 L726 410 L762 470 L782 528 L752 540 L722 482 L684 444 L624 442 L564 462 L524 502 L502 540 L470 520 L432 470 L392 452 L332 462 L292 422 L232 402 L172 382 L132 342 L102 272 L84 202 L92 142 Z"/>
+          <path fill="url(#dots)" opacity=".7" d="M118 92 L300 72 L470 82 L560 94 L600 116 L642 104 L702 132 L756 124 L818 94 L872 82 L902 112 L884 152 L862 172 L834 202 L824 242 L794 284 L782 332 L744 370 L726 410 L762 470 L782 528 L752 540 L722 482 L684 444 L624 442 L564 462 L524 502 L502 540 L470 520 L432 470 L392 452 L332 462 L292 422 L232 402 L172 382 L132 342 L102 272 L84 202 L92 142 Z"/>
+          <g fill="none" stroke="#3B82F6" stroke-width="2.5" stroke-dasharray="3 9" stroke-linecap="round" opacity=".55">
+            <path d="M200 240 Q360 150 520 210"/><path d="M520 210 Q660 150 800 200"/><path d="M520 210 Q560 320 580 400"/><path d="M200 240 Q380 360 580 400"/><path d="M800 200 Q700 330 580 400"/>
+          </g>
+          <g class="mdot"><circle class="halo" cx="200" cy="240" r="16" fill="#FF7A6B" opacity=".5"/><circle cx="200" cy="240" r="12" fill="#FF7A6B" stroke="#fff" stroke-width="4"/></g>
+          <g class="mdot"><circle class="halo" cx="520" cy="210" r="16" fill="#A78BFA" opacity=".5" style="animation-delay:.6s"/><circle cx="520" cy="210" r="12" fill="#A78BFA" stroke="#fff" stroke-width="4"/></g>
+          <g class="mdot"><circle class="halo" cx="580" cy="400" r="16" fill="#FFC857" opacity=".5" style="animation-delay:1.2s"/><circle cx="580" cy="400" r="12" fill="#FFC857" stroke="#fff" stroke-width="4"/></g>
+          <g class="mdot"><circle class="halo" cx="800" cy="200" r="16" fill="#3B82F6" opacity=".5" style="animation-delay:1.8s"/><circle cx="800" cy="200" r="12" fill="#3B82F6" stroke="#fff" stroke-width="4"/></g>
+          <g font-family="Plus Jakarta Sans, sans-serif" font-weight="800" font-size="22" fill="#0F1B3D">
+            <text x="200" y="285" text-anchor="middle">West Coast</text>
+            <text x="520" y="255" text-anchor="middle">Midwest</text>
+            <text x="580" y="445" text-anchor="middle">South</text>
+            <text x="800" y="245" text-anchor="middle">East Coast</text>
+          </g>
+        </svg>
+        <div class="map-legend"><span class="tag t-blue"><svg class="ico" style="width:14px;height:14px"><use href="#i-pin"/></svg>Regional hubs planned for Phase IV</span><span class="tag t-mint">All 50 states</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== RELATED SERVICES ===== -->
+<section class="sec" id="related" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="eyebrow t-lav">Related services</span>
+      <h2 class="h2">All-encompassing <span class="grad">care.</span></h2>
+    </div>
+    <div class="rel-grid">
+      <article class="rel clay t-blue w3 rv"><span class="bubble lg"><svg class="ico"><use href="#i-shield"/></svg></span><h3>Sports Insurance</h3><p>Coverage for athletes at every level, from first flight to world championships.</p></article>
+      <article class="rel clay t-coral w3 rv" style="--d:.06s"><span class="bubble lg"><svg class="ico"><use href="#i-doc"/></svg></span><h3>Accident Claims Support</h3><p>Guided assistance through every step of the claims process.</p></article>
+      <article class="rel clay t-mint w2 rv"><span class="bubble"><svg class="ico"><use href="#i-file"/></svg></span><h3>Medical Documentation</h3><p>Professional records for injury and recovery tracking.</p></article>
+      <article class="rel clay t-sun w2 rv" style="--d:.06s"><span class="bubble"><svg class="ico"><use href="#i-building"/></svg></span><h3>Board Coordination</h3><p>Integration support with state medical and sports boards.</p></article>
+      <article class="rel clay t-lav w2 rv" style="--d:.12s"><span class="bubble"><svg class="ico"><use href="#i-users"/></svg></span><h3>Athlete Protection</h3><p>Rights, advocacy and welfare programs.</p></article>
+      <article class="rel clay t-coral w3 rv"><span class="bubble lg"><svg class="ico"><use href="#i-heart"/></svg></span><h3>Sports Health Initiatives</h3><p>Community and nationwide wellness programs for athletes and families.</p></article>
+      <article class="rel clay t-blue w3 rv" style="--d:.06s"><span class="bubble lg"><svg class="ico"><use href="#i-medal"/></svg></span><h3>Medical Fitness Certification</h3><p>The official U.S.S.M.F. certificate for air sports athletes. <a class="link-btn" href="#certification" style="display:inline-flex">Start here <svg class="ico"><use href="#i-arrow"/></svg></a></p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section class="sec" id="voices" style="padding-top:0">
+  <div class="wrap">
+    <div class="tnav rv" style="margin-bottom:26px;align-items:end">
+      <div class="sec-head" style="margin:0">
+        <span class="eyebrow t-mint">Community voice</span>
+        <h2 class="h2">Building trust across the <span class="grad">sports community.</span></h2>
+      </div>
+      <div class="tarrows">
+        <button class="round" id="tPrev" aria-label="Previous testimonial"><svg class="ico" style="transform:scaleX(-1)"><use href="#i-arrow"/></svg></button>
+        <button class="round" id="tNext" aria-label="Next testimonial"><svg class="ico"><use href="#i-arrow"/></svg></button>
+      </div>
+    </div>
+    <div class="tcar" id="tcar">
+      <article class="tcard clay t-sun"><blockquote>“The U.S.S.M.F. represents a transformative shift in how we approach athlete healthcare. A national standard has long been overdue.”</blockquote><div class="who"><span class="bubble"><svg class="ico"><use href="#i-medal"/></svg></span><div><b>Future Member Athlete</b><span>Elite Track &amp; Field Competitor</span></div></div></article>
+      <article class="tcard clay t-blue"><blockquote>“An organization that finally bridges the gap between high-performance sport and quality medical care for every athlete.”</blockquote><div class="who"><span class="bubble"><svg class="ico"><use href="#i-steth"/></svg></span><div><b>Future Partner Physician</b><span>Sports Medicine Specialist</span></div></div></article>
+      <article class="tcard clay t-coral"><blockquote>“The insurance and rehabilitation frameworks alone will change lives. Athletes deserve this kind of structured, professional support.”</blockquote><div class="who"><span class="bubble"><svg class="ico"><use href="#i-pulse"/></svg></span><div><b>Future Certified Coach</b><span>Strength &amp; Conditioning Expert</span></div></div></article>
+    </div>
+    <div class="tdots" id="tdots" style="justify-content:center"></div>
+  </div>
+</section>
+
+<!-- ===== INTEGRITY ===== -->
+<section class="sec integrity" id="integrity">
+  <div class="wrap">
+    <div class="int-grid">
+      <div class="int-copy">
+        <span class="eyebrow t-coral rv" style="justify-self:start">Declaration of integrity</span>
+        <h2 class="int-h rv" id="intH">American sports are <span class="strike">not for sale.</span></h2>
+        <p class="rv">American sports belong to the athletes and the people who love them. U.S.S.M.F. is built so that sports medicine is run by science, healthcare professionals and integrity, with every decision made in the athlete’s interest.</p>
+        <p class="rv">We commit to open finances, independent medical judgment and zero tolerance for conflicts of interest. We are here to restore the honor and values of American sport.</p>
+        <div class="int-pills rv">
+          <span class="tag t-coral"><svg class="ico" style="width:14px;height:14px"><use href="#i-scale"/></svg>Justice &amp; transparency</span>
+          <span class="tag t-blue"><svg class="ico" style="width:14px;height:14px"><use href="#i-shield"/></svg>Athlete protection</span>
+          <span class="tag t-mint"><svg class="ico" style="width:14px;height:14px"><use href="#i-flask"/></svg>Science-driven</span>
+          <span class="tag t-lav"><svg class="ico" style="width:14px;height:14px"><use href="#i-lock"/></svg>Financial transparency</span>
+        </div>
+        <div class="int-stats">
+          <div class="istat clay t-coral rv"><b>0</b><span>Tolerance for corruption</span></div>
+          <div class="istat clay t-blue rv" style="--d:.06s"><b>100%</b><span>Athlete focused</span></div>
+          <div class="istat clay t-lav rv" style="--d:.12s"><b>∞</b><span>Commitment to integrity</span></div>
+        </div>
+      </div>
+      <div class="ptag-wrap" aria-hidden="true">
+        <div class="ptag">
+          <span class="string"></span><span class="hole"></span>
+          <span class="stamp">NOT FOR SALE</span>
+          <small>Price</small>
+          <span class="price">$ —</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ALLIED ===== -->
+<section class="sec" id="allied">
+  <div class="wrap">
+    <div class="sec-head center rv">
+      <span class="eyebrow t-blue">Global network</span>
+      <h2 class="h2">Allied federations &amp; <span class="grad">partners.</span></h2>
+      <p class="sub">U.S.S.M.F. sits at the center of a network of air sports organizations united in advancing athlete excellence.</p>
+    </div>
+    <div class="net" id="net">
+      <svg class="net-lines" id="netLines" aria-hidden="true"></svg>
+      <article class="node clay t-blue rv" id="nodeL">
+        <span class="nlogo">WASF<img src="assets/wasflogo.png" alt="World Air Sports Federation logo" onerror="this.remove()"></span>
+        <h3>World Air Sports Federation</h3>
+        <p>W.A.S.F. oversees independent air sports disciplines globally. U.S.S.M.F. is allied with W.A.S.F. to deliver specialized sports medicine care to elite aerial athletes worldwide.</p>
+        <span class="tag t-blue" style="justify-self:start"><svg class="ico" style="width:14px;height:14px"><use href="#i-globe"/></svg>International air sports</span>
+      </article>
+      <div class="hub rv" id="hub">
+        <span class="logo-slot"><svg viewBox="0 0 100 100"><use href="#seal"/></svg><img src="assets/logo.jpg" alt="" onerror="this.remove()"></span>
+        <b>U.S.S.M.F.</b>
+        <span>Central hub · Sports Medicine Federation</span>
+      </div>
+      <article class="node clay t-coral rv" id="nodeR" style="--d:.08s">
+        <span class="nlogo">USASF<img src="assets/usasflogo.jpg" alt="United States Air Sports Federation logo" onerror="this.remove()"></span>
+        <h3>United States Air Sports Federation</h3>
+        <p>The national governing body for air sports in America. U.S.A.S.F. and U.S.S.M.F. are allied in delivering medical protection for American aerial athletes across all disciplines.</p>
+        <span class="tag t-coral" style="justify-self:start"><svg class="ico" style="width:14px;height:14px"><use href="#i-wings"/></svg>National air sports</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== JOIN ===== -->
+<section class="sec" id="join" style="padding-top:0">
+  <div class="wrap">
+    <div class="join rv">
+      <div class="c-wrap" style="right:6%;top:12%;--t:30s"><div class="cloud" style="--w:140px;--o:.35"></div></div>
+      <div class="c-wrap" style="left:40%;bottom:-6%;--t:36s"><div class="cloud" style="--w:200px;--o:.25"></div></div>
+      <div class="join-in">
+        <div>
+          <h2>Join the future of sports medicine.</h2>
+          <p>Be the first to know when U.S.S.M.F. officially launches. Together we build a healthier, stronger athletic America.</p>
+        </div>
+        <div id="joinBox">
+          <form class="join-form" id="joinForm" novalidate>
+            <label class="sr-only" for="joinEmail">Email address</label>
+            <input id="joinEmail" type="email" placeholder="Enter your email address" autocomplete="email">
+            <button class="btn" type="submit">Notify me at launch</button>
+          </form>
+          <div class="err" id="joinErr"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="sec" id="contact" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="eyebrow t-sun">Get in touch</span>
+      <h2 class="h2">Contact the <span class="grad">federation.</span></h2>
+      <p class="sub">Questions about certification, partnership or getting involved? We would love to hear from you.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="cinfo">
+        <div class="ci clay t-blue rv"><span class="bubble"><svg class="ico"><use href="#i-mail"/></svg></span><h3>Federation email</h3>
+          <div class="copyline"><code>info@ussmf.org</code><button class="copybtn" data-copy="info@ussmf.org" aria-label="Copy info@ussmf.org"><svg class="ico"><use href="#i-copy"/></svg></button></div>
+          <div class="copyline"><code>president@ussmf.org</code><button class="copybtn" data-copy="president@ussmf.org" aria-label="Copy president@ussmf.org"><svg class="ico"><use href="#i-copy"/></svg></button></div>
+        </div>
+        <div class="ci clay t-coral rv" style="--d:.06s"><span class="bubble"><svg class="ico"><use href="#i-building"/></svg></span><h3>Headquarters</h3><p>United States of America. Full address available at launch.</p></div>
+        <div class="ci clay t-mint rv"><span class="bubble"><svg class="ico"><use href="#i-cal"/></svg></span><h3>Official launch</h3><p>Phase IV. Nationwide operations commence.</p></div>
+        <div class="ci clay t-lav rv" style="--d:.06s"><span class="bubble"><svg class="ico"><use href="#i-phone"/></svg></span><h3>Phone</h3><p>Contact details available upon official launch.</p></div>
+      </div>
+      <form class="cform clay rv" id="contactForm" novalidate>
+        <div class="row2">
+          <div class="field"><label for="cName">Full name</label><input class="inp" id="cName" autocomplete="name"><span class="err" data-for="cName"></span></div>
+          <div class="field"><label for="cEmail">Email</label><input class="inp" id="cEmail" type="email" autocomplete="email"><span class="err" data-for="cEmail"></span></div>
+        </div>
+        <div class="field"><label for="cTopic">Topic</label>
+          <select class="inp" id="cTopic"><option>Certification</option><option>Partnership</option><option>Insurance &amp; claims</option><option>Media</option><option>Other</option></select>
+        </div>
+        <div class="field"><label for="cMsg">Message</label><textarea class="inp" id="cMsg"></textarea><span class="err" data-for="cMsg"></span></div>
+        <button class="btn btn-primary" type="submit" style="justify-self:start">Send message <svg class="ico arrow"><use href="#i-arrow"/></svg></button>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="f-clouds" aria-hidden="true"><svg viewBox="0 0 1440 70" preserveAspectRatio="none"><path fill="#F5F9FF" d="M0 0h1440v20c-40 0-60 30-110 30s-70-34-120-34-60 40-120 40-80-30-130-30-70 36-130 36-70-40-130-40-60 30-120 30-80-26-130-26-60 34-120 34-70-30-120-30S110 40 60 40 0 20 0 20z"/></svg></div>
+  <div class="wrap">
+    <div class="f-grid">
+      <div class="f-brand">
+        <span class="brand"><span class="logo-slot"><svg viewBox="0 0 100 100"><use href="#seal"/></svg><img src="assets/logo.jpg" alt="" onerror="this.remove()"></span><span>U.S.S.M.F.<small>Sports Medicine Federation</small></span></span>
+        <p>Advancing athlete health through science, innovation and excellence. Launching Phase IV.</p>
+      </div>
+      <div><h4>Federation</h4><ul><li><a href="#about">About U.S.S.M.F.</a></li><li><a href="#mission">Mission</a></li><li><a href="#timeline">Timeline</a></li><li><a href="#impact">Impact</a></li></ul></div>
+      <div><h4>Services</h4><ul><li><a href="#services">Sports medicine</a></li><li><a href="#services">Injury prevention</a></li><li><a href="#services">Rehabilitation</a></li><li><a href="#related">Insurance</a></li></ul></div>
+      <div><h4>Certification</h4><ul><li><a href="#certification" data-open-apply>Apply</a></li><li><a href="#status">Track application</a></li><li><a href="#verify">Verify certificate</a></li><li><a href="#disciplines">Disciplines</a></li></ul></div>
+      <div><h4>Connect</h4><ul><li><a href="#founder">Our founder</a></li><li><a href="#allied">Allied federations</a></li><li><a href="#integrity">Our stand</a></li><li><a href="#join">Join the movement</a></li></ul></div>
+    </div>
+    <div class="f-bottom"><span>© 2026 United States Sports Medicine Federation. All rights reserved.</span><span>Designed &amp; developed by Vivek Chaudhary</span></div>
+  </div>
+</footer>
+
+<!-- ===== APPLICATION MODAL ===== -->
+<div class="modal" id="applyModal" hidden role="dialog" aria-modal="true" aria-labelledby="applyTitle">
+  <div class="modal-bg" data-close></div>
+  <div class="modal-card">
+    <div class="m-head" id="mHead">
+      <div class="m-title">
+        <h2 id="applyTitle">Medical Fitness Certificate<small>Air Sports Division · Application</small></h2>
+        <div style="display:flex;align-items:center;gap:10px"><span class="saved" id="saved" hidden><svg class="ico"><use href="#i-check"/></svg>Draft saved</span><button class="round" data-close aria-label="Close application" style="width:44px;height:44px"><svg class="ico"><use href="#i-x"/></svg></button></div>
+      </div>
+      <div class="pbar"><i id="pbar"></i></div>
+      <div class="steps-mini" id="stepsMini"><span>1 · Personal</span><span>2 · Sport</span><span>3 · Medical</span><span>4 · Documents</span><span>5 · Review</span></div>
+    </div>
+    <form class="m-body" id="applyForm" novalidate>
+      <!-- step 1 -->
+      <div class="m-step" data-step="1">
+        <h3>Personal details</h3>
+        <p>Use your legal name. It will appear on your certificate.</p>
+        <div class="grid2">
+          <div class="field"><label for="aName">Full legal name</label><input class="inp" id="aName" autocomplete="name" required><span class="err"></span></div>
+          <div class="field"><label for="aDob">Date of birth</label><input class="inp" id="aDob" type="date" required><span class="err"></span></div>
+          <div class="field"><label for="aEmail">Email</label><input class="inp" id="aEmail" type="email" autocomplete="email" required><span class="err"></span></div>
+          <div class="field"><label for="aPhone">Phone</label><input class="inp" id="aPhone" type="tel" autocomplete="tel" required><span class="err"></span></div>
+          <div class="field"><label for="aState">State</label><select class="inp" id="aState" required><option value="">Select your state</option></select><span class="err"></span></div>
+          <div class="field"><span class="flabel">Photo for certificate</span>
+            <div class="photo-row"><span class="photo-prev" id="photoPrev"><svg class="ico"><use href="#i-user"/></svg></span><label class="btn btn-glass btn-sm" for="aPhoto" style="cursor:pointer">Upload photo</label><input id="aPhoto" type="file" accept="image/*" class="sr-only"></div>
+          </div>
+        </div>
+      </div>
+      <!-- step 2 -->
+      <div class="m-step" data-step="2" hidden>
+        <h3>Sport details</h3>
+        <p>Tell us how and where you fly.</p>
+        <div class="grid2">
+          <div class="field"><label for="aDisc">Primary discipline</label><select class="inp" id="aDisc" required><option value="">Select discipline</option></select><span class="err"></span></div>
+          <div class="field"><label for="aLevel">Level</label><select class="inp" id="aLevel" required><option value="">Select level</option><option>Recreational</option><option>Club</option><option>National</option><option>International</option></select><span class="err"></span></div>
+          <div class="field"><label for="aFed">Federation membership</label><select class="inp" id="aFed"><option>U.S.A.S.F.</option><option>W.A.S.F.</option><option>Both</option><option>None yet</option></select></div>
+          <div class="field"><label for="aMem">Member number</label><input class="inp" id="aMem" placeholder="Optional"><span class="hint">Speeds up verification.</span></div>
+        </div>
+        <div class="field"><label for="aYears">Years of experience</label><div class="range-row"><input type="range" id="aYears" min="0" max="30" value="4"><output id="aYearsOut" for="aYears">4 yrs</output></div></div>
+      </div>
+      <!-- step 3 -->
+      <div class="m-step" data-step="3" hidden>
+        <h3>Medical history</h3>
+        <p>Select anything that applies now or in the past. Your answers are read only by U.S.S.M.F. physicians.</p>
+        <div class="field"><span class="flabel">Conditions</span>
+          <div class="chips-check" id="condChips"></div>
+          <span class="err" id="condErr"></span>
+        </div>
+        <div class="grid2">
+          <div class="field"><label for="aMeds">Current medications</label><textarea class="inp" id="aMeds" placeholder="Name, dose and reason. Write “None” if none."></textarea></div>
+          <div class="field"><label for="aInj">Past injuries or surgeries</label><textarea class="inp" id="aInj" placeholder="Include year and recovery status."></textarea></div>
+        </div>
+        <div class="field" style="max-width:320px"><label for="aLast">Date of last full physical</label><input class="inp" id="aLast" type="date" required><span class="err"></span></div>
+      </div>
+      <!-- step 4 -->
+      <div class="m-step" data-step="4" hidden>
+        <h3>Upload medical records</h3>
+        <p>Recent physical exam, ECG, vision test and any specialist reports. PDF, JPG or PNG up to 10 MB each.</p>
+        <label class="drop" id="drop">
+          <input type="file" id="aFiles" multiple accept=".pdf,.jpg,.jpeg,.png,application/pdf,image/*">
+          <span class="bubble lg t-blue"><svg class="ico"><use href="#i-upload"/></svg></span>
+          <b>Drag files here or tap to browse</b>
+          <span>Files are encrypted before review</span>
+        </label>
+        <div class="files" id="fileList"></div>
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap">
+          <span class="err" id="fileErr"></span>
+          <button type="button" class="link-btn" id="sampleFile"><svg class="ico"><use href="#i-clip"/></svg>Add a sample file for this demo</button>
+        </div>
+      </div>
+      <!-- step 5 -->
+      <div class="m-step" data-step="5" hidden>
+        <h3>Review &amp; consent</h3>
+        <p>Check your details, then sign to submit.</p>
+        <div class="sum" id="summary"></div>
+        <label class="chk"><input type="checkbox" id="c1"><span>I consent to U.S.S.M.F. physicians reviewing my medical records for certification.</span></label>
+        <label class="chk"><input type="checkbox" id="c2"><span>The information I provided is accurate and complete to the best of my knowledge.</span></label>
+        <label class="chk"><input type="checkbox" id="c3"><span>I understand that a certificate can be suspended if my health status changes.</span></label>
+        <span class="err" id="consentErr"></span>
+        <div class="field"><span class="flabel">Signature</span>
+          <div class="sigpad"><canvas id="sigCanvas" aria-label="Signature pad"></canvas><span class="ph">Sign here with your mouse or finger</span><button type="button" class="link-btn clear" id="sigClear">Clear</button></div>
+          <span class="err" id="sigErr"></span>
+        </div>
+      </div>
+      <!-- success -->
+      <div class="m-step success" data-step="6" hidden>
+        <span class="bigcheck"><svg class="ico"><use href="#i-check"/></svg></span>
+        <h3 style="font-size:clamp(24px,3vw,32px)">Application submitted</h3>
+        <p style="margin:0;max-width:46ch">A U.S.S.M.F. physician will review your records. Keep your application ID to track progress.</p>
+        <span class="appid" id="appId">USSMF-APP-2026-0000</span>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center">
+          <button type="button" class="btn btn-primary" id="goTrack">Track status <svg class="ico arrow"><use href="#i-arrow"/></svg></button>
+          <button type="button" class="btn btn-glass" data-close>Done</button>
+        </div>
+      </div>
+    </form>
+    <div class="m-foot" id="mFoot">
+      <button type="button" class="btn btn-glass btn-sm" id="backBtn">Back</button>
+      <span class="demo-tag">Demo · nothing is sent</span>
+      <button type="button" class="btn btn-primary btn-sm" id="nextBtn">Continue <svg class="ico arrow"><use href="#i-arrow"/></svg></button>
+    </div>
+  </div>
+</div>
+
+<div class="toasts" id="toasts" aria-live="polite"></div>
+<canvas id="confetti" aria-hidden="true"></canvas>
+
+<script>
+(function(){
+"use strict";
+var doc=document, root=doc.documentElement;
+root.classList.add("js");
+var $=function(s,c){return (c||doc).querySelector(s)};
+var $$=function(s,c){return Array.prototype.slice.call((c||doc).querySelectorAll(s))};
+var reduce=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
+var finePointer=window.matchMedia&&matchMedia("(hover:hover) and (pointer:fine)").matches;
+var clamp=function(v,a,b){return Math.max(a,Math.min(b,v))};
+var icon=function(id,cls){return '<svg class="ico'+(cls?' '+cls:'')+'"><use href="#'+id+'"/></svg>'};
+var esc=function(s){return String(s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})};
+function store(k,v){try{if(v===undefined)return JSON.parse(localStorage.getItem(k)||"null");if(v===null)localStorage.removeItem(k);else localStorage.setItem(k,JSON.stringify(v))}catch(e){return null}}
+
+/* ---------- Toasts ---------- */
+function toast(msg,ic){
+  var t=doc.createElement("div");t.className="toast";t.innerHTML=icon(ic||"i-check")+"<span>"+esc(msg)+"</span>";
+  $("#toasts").appendChild(t);
+  setTimeout(function(){t.style.transition="opacity .4s, transform .4s";t.style.opacity="0";t.style.transform="translateY(10px)";setTimeout(function(){t.remove()},400)},3400);
+}
+function copyText(text,label){
+  var done=function(){toast((label||text)+" copied")};
+  try{navigator.clipboard.writeText(text).then(done,function(){fallbackCopy(text);done()})}catch(e){fallbackCopy(text);done()}
+}
+function fallbackCopy(text){var ta=doc.createElement("textarea");ta.value=text;ta.style.position="fixed";ta.style.opacity="0";doc.body.appendChild(ta);ta.select();try{doc.execCommand("copy")}catch(e){}ta.remove()}
+$$("[data-copy]").forEach(function(b){b.addEventListener("click",function(){copyText(b.getAttribute("data-copy"))})});
+
+/* ---------- Count up ---------- */
+function fmt(el,v){var plain=el.hasAttribute("data-plain");return (plain?String(Math.round(v)):Math.round(v).toLocaleString("en-US"))+(el.getAttribute("data-suffix")||"")}
+function countUp(el,delay){
+  if(el._counted)return;el._counted=true;
+  var to=parseFloat(el.getAttribute("data-count")),from=el.hasAttribute("data-plain")?to-30:0;
+  if(reduce){el.textContent=fmt(el,to);return}
+  el.textContent=fmt(el,from);
+  setTimeout(function(){
+    var t0=performance.now(),dur=1600;
+    (function step(t){var p=clamp((t-t0)/dur,0,1),e=1-Math.pow(1-p,4);el.textContent=fmt(el,from+(to-from)*e);if(p<1)requestAnimationFrame(step)})(t0);
+  },delay||0);
+}
+
+/* ---------- Reveal ---------- */
+var revealIO=new IntersectionObserver(function(entries){
+  entries.forEach(function(en){
+    if(!en.isIntersecting)return;var el=en.target;
+    el.classList.remove("pre");el.classList.add("in");revealIO.unobserve(el);
+    $$("[data-count]",el).forEach(function(c){countUp(c,200)});
+    if(el.hasAttribute("data-count"))countUp(el,200);
+  });
+},{threshold:.12,rootMargin:"0px 0px -40px 0px"});
+$$(".rv").forEach(function(el){
+  var r=el.getBoundingClientRect();
+  if(r.top>innerHeight*.95&&!reduce){el.classList.add("pre");revealIO.observe(el)}
+  else el.classList.add("in");
+});
+var countIO=new IntersectionObserver(function(entries){entries.forEach(function(en){if(en.isIntersecting){countUp(en.target,150);countIO.unobserve(en.target)}})},{threshold:.4});
+$$("[data-count]").forEach(function(el){
+  if(el.closest(".hero"))countUp(el,1000);
+  else if(el.getBoundingClientRect().top>innerHeight)countIO.observe(el);
+});
+
+/* ---------- Header ---------- */
+var header=$("#header");
+var navLinks=$$(".nav-links a");
+var sections=navLinks.map(function(a){return $(a.getAttribute("href"))}).filter(Boolean);
+var secIO=new IntersectionObserver(function(entries){
+  entries.forEach(function(en){if(en.isIntersecting){var id="#"+en.target.id;navLinks.forEach(function(a){a.classList.toggle("active",a.getAttribute("href")===id)})}});
+},{rootMargin:"-45% 0px -50% 0px"});
+sections.forEach(function(s){secIO.observe(s)});
+
+/* mobile nav */
+var mnav=$("#mnav"),burger=$("#burger");
+function openMnav(){mnav.hidden=false;burger.setAttribute("aria-expanded","true");doc.body.style.overflow="hidden";$("#mclose").focus()}
+function closeMnav(){mnav.hidden=true;burger.setAttribute("aria-expanded","false");doc.body.style.overflow=""}
+burger.addEventListener("click",openMnav);$("#mclose").addEventListener("click",closeMnav);
+$$("a",mnav).forEach(function(a){a.addEventListener("click",closeMnav)});
+
+/* ---------- Hero ---------- */
+var hero=$("#hero"),scene=$("#scene"),hcert=$("#hcert");
+if(finePointer&&!reduce){
+  hero.addEventListener("pointermove",function(e){
+    var r=hero.getBoundingClientRect(),mx=(e.clientX-r.left)/r.width-.5,my=(e.clientY-r.top)/r.height-.5;
+    hero.style.setProperty("--mx",mx.toFixed(3));hero.style.setProperty("--my",my.toFixed(3));
+    var s=scene.getBoundingClientRect(),sx=(e.clientX-(s.left+s.width/2))/s.width,sy=(e.clientY-(s.top+s.height/2))/s.height;
+    hcert.style.setProperty("--ry",clamp(sx*22,-16,16).toFixed(2)+"deg");hcert.style.setProperty("--rx",clamp(-sy*22,-16,16).toFixed(2)+"deg");
+  });
+  hero.addEventListener("pointerleave",function(){hero.style.setProperty("--mx",0);hero.style.setProperty("--my",0);hcert.style.setProperty("--rx","0deg");hcert.style.setProperty("--ry","0deg")});
+}
+/* orbiting chips */
+var chips=$$(".dchip"),orbitPaused=false,orbitT=0,lastT=performance.now();
+chips.forEach(function(c,i){
+  c.classList.add("dchip-in");c.style.animationDelay=(1.6+i*.12)+"s";
+  c.addEventListener("pointerenter",function(){orbitPaused=true});c.addEventListener("pointerleave",function(){orbitPaused=false});
+  c.addEventListener("focus",function(){orbitPaused=true});c.addEventListener("blur",function(){orbitPaused=false});
+  c.addEventListener("click",function(){selectDisc(c.getAttribute("data-disc"),true)});
+});
+function placeChips(dt){
+  if(!orbitPaused&&!reduce)orbitT+=dt*.00011;
+  var w=scene.clientWidth,h=scene.clientHeight,cx=w/2,cy=h/2,rx=w*.43,ry=h*.38;
+  chips.forEach(function(c,i){
+    var a=orbitT+i*(Math.PI*2/chips.length)+.4,x=cx+Math.cos(a)*rx,y=cy+Math.sin(a)*ry,depth=(Math.sin(a)+1)/2;
+    c.style.transform="translate("+x.toFixed(1)+"px,"+y.toFixed(1)+"px) scale("+(.82+depth*.26).toFixed(3)+")";
+    c.style.zIndex=Math.sin(a)>-.15?5:2;
+  });
+}
+(function loop(t){var dt=t-lastT;lastT=t;placeChips(Math.min(dt,50));if(!reduce)requestAnimationFrame(loop)})(performance.now());
+if(reduce)addEventListener("resize",function(){placeChips(0)});
+/* bpm */
+var bpm=$("#bpm");if(!reduce)setInterval(function(){bpm.textContent=60+Math.round(Math.random()*5)},1800);
+/* scroll fade of the scene */
+var ticking=false;
+function onScroll(){
+  var y=scrollY;header.classList.toggle("shrink",y>30);
+  if(!reduce){var p=clamp(y/(hero.offsetHeight*.9),0,1);scene.style.translate="0 "+(p*90).toFixed(1)+"px";scene.style.scale=(1-p*.08).toFixed(3);scene.style.opacity=(1-p*.7).toFixed(3)}
+  journeyProgress();tlProgress();ticking=false;
+}
+addEventListener("scroll",function(){if(!ticking){ticking=true;requestAnimationFrame(onScroll)}},{passive:true});
+
+/* ---------- Phase track ---------- */
+new IntersectionObserver(function(en,o){if(en[0].isIntersecting){$("#phaseTrack").classList.add("go");o.disconnect()}},{threshold:.4}).observe($("#phaseTrack"));
+
+/* ---------- QR + guilloche ---------- */
+function hash(s){var h=2166136261;for(var i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619)}return h>>>0}
+function rng(seed){return function(){seed|=0;seed=seed+0x6D2B79F5|0;var t=Math.imul(seed^seed>>>15,1|seed);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+function qrSVG(str){
+  var n=25,r=rng(hash(str)),d="";
+  var finder=function(x,y){return x<8&&y<8||x>=n-8&&y<8||x<8&&y>=n-8};
+  for(var y=0;y<n;y++)for(var x=0;x<n;x++){if(!finder(x,y)&&r()>.5)d+="M"+x+" "+y+"h1v1h-1z"}
+  [[0,0],[n-7,0],[0,n-7]].forEach(function(p){var X=p[0],Y=p[1];d+="M"+X+" "+Y+"h7v7h-7zM"+(X+1)+" "+(Y+1)+"v5h5v-5zM"+(X+2)+" "+(Y+2)+"h3v3h-3z"});
+  return '<svg viewBox="0 0 25 25" shape-rendering="crispEdges"><path fill="#0F1B3D" fill-rule="evenodd" d="'+d+'"/></svg>';
+}
+$$("[data-qr]").forEach(function(el){el.innerHTML=qrSVG(el.getAttribute("data-qr"))});
+(function guil(){
+  var g=$("#guil"),out="",cols=["#93C5FD","#C4B5FD","#FDBA9F","#86EFAC"];
+  for(var k=0;k<4;k++){
+    var R=170+k*24,rr=26+k*7,dd=58+k*5,cx=400,cy=260,pts=[];
+    for(var t=0,tm=Math.PI*2*Math.min(rr/gcd(R,rr),9);t<=tm+.01;t+=.04){pts.push((cx+(R-rr)*Math.cos(t)+dd*Math.cos((R-rr)/rr*t)).toFixed(1)+","+(cy+((R-rr)*Math.sin(t)-dd*Math.sin((R-rr)/rr*t))*.62).toFixed(1))}
+    out+='<polyline points="'+pts.join(" ")+'" fill="none" stroke="'+cols[k]+'" stroke-width=".7" opacity=".7"/>';
+  }
+  for(var j=0;j<14;j++){var p="M-10 "+(20+j*36);for(var x=0;x<=820;x+=20)p+=" L"+x+" "+(20+j*36+Math.sin(x/38+j)*9).toFixed(1);out+='<path d="'+p+'" fill="none" stroke="#DCE6F7" stroke-width=".8"/>'}
+  g.innerHTML=out;
+  function gcd(a,b){return b?gcd(b,a%b):a}
+})();
+
+/* ---------- Tilt cards ---------- */
+if(finePointer&&!reduce){
+  $$(".tilt").forEach(function(el){
+    el.addEventListener("pointermove",function(e){var r=el.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;el.style.transform="perspective(900px) rotateX("+(-y*9).toFixed(2)+"deg) rotateY("+(x*9).toFixed(2)+"deg) translateY(-6px)"});
+    el.addEventListener("pointerleave",function(){el.style.transform=""});
+  });
+  var paper=$("#paper");
+  paper.addEventListener("pointermove",function(e){var r=paper.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;paper.style.transform="rotateX("+(-y*8).toFixed(2)+"deg) rotateY("+(x*10).toFixed(2)+"deg)"});
+  paper.addEventListener("pointerleave",function(){paper.style.transform=""});
+}
+
+/* ---------- Disciplines ---------- */
+var DISC=[
+ {id:"skydiving",name:"Skydiving",tone:"t-coral",ic:"i-parachute",alt:"Exit altitude ~13,000 ft",lead:"Freefall at up to 120 mph, then canopy deployment and a high-energy landing.",risks:["Lower-limb and spinal landing injuries","Ear and sinus barotrauma during descent","Deployment shock through neck and shoulders","Adrenaline-driven cardiac stress"],screen:["Resting ECG and blood pressure","Spine and lower-limb exam","ENT and ear-pressure check","Vision and depth perception"],cls:"Class 2 · Sport, Class 1 for competition and instructors"},
+ {id:"paragliding",name:"Paragliding",tone:"t-blue",ic:"i-paraglider",alt:"Cross-country flights to 18,000 ft",lead:"Hours in thermals bring cold, altitude and long stretches of sustained concentration.",risks:["Hypoxia on high cross-country flights","Back and ankle injuries on launch and landing","Cold exposure and dehydration","Fatigue affecting judgment"],screen:["Cardiovascular and respiratory review","Spine and ankle exam","Vision and color vision","Fatigue and sleep history"],cls:"Class 2 · Sport"},
+ {id:"hang",name:"Hang Gliding",tone:"t-mint",ic:"i-hang",alt:"Prone flight to 15,000 ft",lead:"Pilots fly prone and steer the wing by shifting their body weight.",risks:["Upper-body strain from weight-shift control","Neck strain from the prone position","Impact injuries on landing","Hypoxia at altitude"],screen:["Shoulder, neck and grip strength","Cardiovascular review","Vision","Neurological screen"],cls:"Class 2 · Sport"},
+ {id:"gliding",name:"Gliding",tone:"t-sun",ic:"i-glider",alt:"Wave soaring above 20,000 ft",lead:"Long soaring flights, sometimes in wave far above oxygen-free altitudes.",risks:["Hypoxia and supplemental oxygen needs","Dehydration and fatigue on long flights","G-loads in competition turns","Hearing strain"],screen:["Cardiovascular review with ECG","Vision including color vision","Respiratory review","Hearing test"],cls:"Class 2 · Sport, Class 1 for competition"},
+ {id:"paramotor",name:"Paramotoring",tone:"t-lav",ic:"i-paramotor",alt:"Up to 30 kg of motor on the back",lead:"A foot-launched wing with an engine strapped to the pilot’s back.",risks:["Spinal loading on the take-off run","Propeller and burn hazards","Noise exposure","Knee and ankle injuries on launch"],screen:["Spine and knee exam","Hearing test","Cardiovascular review","Vision"],cls:"Class 2 · Sport"},
+ {id:"ballooning",name:"Ballooning",tone:"t-coral",ic:"i-balloon",alt:"Typical flights 1,000–10,000 ft",lead:"Gentle flight with physically demanding launch, burner work and recovery.",risks:["Hard landings and basket-tip injuries","Burns from burners and propane","Long periods standing","Heat and sun exposure"],screen:["Musculoskeletal fitness for landings","Cardiovascular review","Vision","Mobility and balance"],cls:"Class 2 · Pilot"},
+ {id:"aerobatics",name:"Aerobatics",tone:"t-blue",ic:"i-aero",alt:"Sustained loads from +6 G to −4 G",lead:"Precision maneuvers expose pilots to rapid, sustained G-forces.",risks:["G-induced loss of consciousness (G-LOC)","Neck strain under load","Spatial disorientation","Cardiovascular strain"],screen:["ECG and exercise tolerance","Vestibular and balance testing","Cervical spine exam","Vision"],cls:"Class 1 · Elite"},
+ {id:"drone",name:"Drone Racing",tone:"t-lav",ic:"i-drone",alt:"Gates at 100+ mph through FPV goggles",lead:"Pilots race from the ground through immersive first-person-view goggles.",risks:["Motion sickness and visual fatigue","Eye strain and headaches","Repetitive strain in hands and wrists","Photosensitive seizure risk"],screen:["Vision and binocular function","Seizure history","Hand and wrist exam","Vestibular screen"],cls:"Class 3 · Recreational and youth, Class 2 for competition"}
+];
+var tabs=$("#discTabs"),panel=$("#discPanel");
+tabs.innerHTML=DISC.map(function(d,i){return '<button class="dtab '+d.tone+'" role="tab" id="tab-'+d.id+'" aria-selected="'+(i===1)+'" aria-controls="discPanel" data-id="'+d.id+'" tabindex="'+(i===1?0:-1)+'"><span class="bubble">'+icon(d.ic)+'</span>'+d.name+'</button>'}).join("");
+function renderDisc(d){
+  panel.className="disc-panel clay panel-anim "+d.tone;panel.setAttribute("aria-labelledby","tab-"+d.id);
+  panel.innerHTML='<div class="dp-visual"><span class="huge">'+icon(d.ic)+'</span><span class="alt">'+esc(d.alt)+'</span></div>'+
+   '<div class="dp-copy"><div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center"><h3>'+d.name+'</h3><span class="demo-tag">Draft guidance</span></div><p class="lead">'+esc(d.lead)+'</p>'+
+   '<div class="dp-cols"><div><h4>Key medical risks</h4><ul>'+d.risks.map(function(r){return "<li>"+icon("i-alert")+esc(r)+"</li>"}).join("")+'</ul></div>'+
+   '<div><h4>Recommended screenings</h4><ul>'+d.screen.map(function(r){return "<li>"+icon("i-check")+esc(r)+"</li>"}).join("")+'</ul></div></div>'+
+   '<div class="dp-class">'+icon("i-medal")+'<span>Certificate required: <b>'+esc(d.cls)+'</b></span></div>'+
+   '<p style="font-size:12.5px;color:var(--ink-3)">Final protocols are set by the U.S.S.M.F. Medical Board.</p></div>';
+  void panel.offsetWidth;
+}
+function selectDisc(id,scroll){
+  var d=DISC.filter(function(x){return x.id===id})[0];if(!d)return;
+  $$(".dtab",tabs).forEach(function(t){var on=t.getAttribute("data-id")===id;t.setAttribute("aria-selected",on);t.tabIndex=on?0:-1;if(on&&!scroll)t.scrollIntoView({block:"nearest",inline:"nearest",behavior:reduce?"auto":"smooth"})});
+  panel.classList.remove("panel-anim");renderDisc(d);
+  if(scroll){$("#disciplines").scrollIntoView({behavior:reduce?"auto":"smooth"})}
+}
+tabs.addEventListener("click",function(e){var b=e.target.closest(".dtab");if(b)selectDisc(b.getAttribute("data-id"))});
+tabs.addEventListener("keydown",function(e){
+  if(e.key!=="ArrowRight"&&e.key!=="ArrowLeft")return;var list=$$(".dtab",tabs),i=list.indexOf(doc.activeElement);if(i<0)return;
+  var n=list[(i+(e.key==="ArrowRight"?1:-1)+list.length)%list.length];n.focus();selectDisc(n.getAttribute("data-id"));e.preventDefault();
+});
+renderDisc(DISC[1]);
+
+/* ---------- Journey + timeline progress ---------- */
+var journey=$("#journey"),jprog=$("#jprog"),jsteps=$$(".jstep");
+function journeyProgress(){
+  var r=journey.getBoundingClientRect(),p=clamp((innerHeight*.85-r.top)/(innerHeight*.6),0,1);
+  jprog.setAttribute("stroke-dashoffset",(100-p*100).toFixed(1));
+  jsteps.forEach(function(s,i){s.classList.toggle("lit",p>=i/(jsteps.length-1)-.02)});
+}
+var tlRail=$("#tlRail"),tlprog=$("#tlprog"),tlItems=$$(".tl-item");
+function tlProgress(){
+  var r=tlRail.getBoundingClientRect(),p=clamp((innerHeight*.85-r.top)/(innerHeight*.55),0,1);
+  tlprog.setAttribute("stroke-dashoffset",(100-p*100).toFixed(1));
+  tlItems.forEach(function(s,i){s.classList.toggle("lit",p>=i/(tlItems.length-1)-.02)});
+}
+journeyProgress();tlProgress();
+
+/* ---------- Eligibility ---------- */
+var eligDisc=$('[data-q="disc"]');
+eligDisc.innerHTML=DISC.map(function(d,i){return '<button class="opt" data-v="'+d.id+'" aria-pressed="'+(i===1)+'">'+d.name+'</button>'}).join("");
+var elig={disc:"paragliding",age:"adult",level:"club",cond:"no"};
+$$("#eligibility .opts").forEach(function(g){
+  g.addEventListener("click",function(e){var b=e.target.closest(".opt");if(!b)return;$$(".opt",g).forEach(function(o){o.setAttribute("aria-pressed",o===b)});elig[g.getAttribute("data-q")]=b.getAttribute("data-v");renderElig()});
+});
+function renderElig(){
+  var d=DISC.filter(function(x){return x.id===elig.disc})[0];
+  var cls=elig.level==="intl"||elig.level==="nat"||elig.disc==="aerobatics"?"Class 1 · Elite":elig.level==="club"?"Class 2 · Sport":"Class 3 · Recreational";
+  var tone="t-mint",title="You look eligible to apply",docs=["Physical exam from the last 12 months","Vision test","Resting ECG"];
+  if(elig.cond==="yes"){tone="t-sun";title="Eligible, with specialist review";docs.push("Specialist report for your condition")}
+  if(elig.cond==="unsure"){tone="t-blue";title="Eligible to apply";docs.push("Any records you have, our physicians will advise")}
+  var notes=[];
+  if(elig.age==="u16"||elig.age==="16")notes.push("Youth pathway: a parent or guardian signs the consent.");
+  if(elig.age==="60")notes.push("Annual renewal recommended for athletes 60 and over.");
+  if(cls.indexOf("Class 1")===0)notes.push("Class 1 includes an exercise ECG.");
+  $("#eligOut").innerHTML='<div class="elig-result '+tone+'"><h4>'+title+'</h4><p>'+esc(d.name)+' at your level needs a <b>'+cls+'</b> certificate. Have these ready:</p><ul>'+docs.map(function(x){return"<li>"+esc(x)+"</li>"}).join("")+'</ul>'+(notes.length?'<p>'+notes.map(esc).join(" ")+'</p>':"")+'</div>';
+}
+renderElig();
+
+/* ---------- Status tracker ---------- */
+var STAGES=["Submitted","Records verified","Physician review","Fitness assessment","Certificate issued"];
+var APPS={
+ "USSMF-APP-2026-3381":{name:"Jordan Lee",disc:"Skydiving",stage:2,dates:["Oct 08","Oct 11","In progress"],note:"Physician review usually takes 3–5 business days."},
+ "USSMF-APP-2026-2207":{name:"Morgan Brooks",disc:"Aerobatics",stage:1,warn:true,dates:["Oct 15"],note:"Upload a vision test dated within the last 12 months to continue."}
+};
+function renderStatus(id){
+  var a=APPS[id];
+  if(!a){$("#statusOut").innerHTML='<div class="vres t-coral"><span class="bubble">'+icon("i-search")+'</span><div><h4>No application found</h4><p>Check the ID in your confirmation email. IDs look like <code>USSMF-APP-2026-3381</code>.</p></div></div>';return}
+  var html='<div class="status-head"><div><b>'+esc(a.name)+'</b> · <span style="color:var(--ink-2)">'+esc(a.disc)+'</span></div><code>'+esc(id)+'</code></div><ol class="status-tl" style="margin-top:16px">';
+  STAGES.forEach(function(s,i){
+    var cls=i<a.stage?"done":i===a.stage?(a.warn?"warn":"current"):"";
+    var label=i===a.stage&&a.warn?"Additional information needed":s;
+    var sub=i<a.stage?(a.dates[i]||"Done"):i===a.stage?(a.warn?a.note:"In progress · "+a.note):"Waiting";
+    html+='<li class="'+cls+'"><span class="sdot">'+(i<a.stage?icon("i-check"):i===a.stage?icon(a.warn?"i-alert":"i-clock"):"")+'</span><div><b>'+esc(label)+'</b><span>'+esc(sub)+'</span></div></li>';
+  });
+  $("#statusOut").innerHTML=html+"</ol>";
+}
+$("#statusForm").addEventListener("submit",function(e){
+  e.preventDefault();var inp=$("#stId"),v=inp.value.trim().toUpperCase();inp.value=v;
+  if(!/^USSMF-APP-\d{4}-\d{4,5}$/.test(v)){$("#stErr").textContent="Application IDs look like USSMF-APP-2026-3381.";inp.classList.add("bad");$("#statusOut").innerHTML="";return}
+  $("#stErr").textContent="";inp.classList.remove("bad");renderStatus(v);
+});
+$$("[data-st]").forEach(function(b){b.addEventListener("click",function(){$("#stId").value=b.getAttribute("data-st");$("#statusForm").requestSubmit()})});
+renderStatus("USSMF-APP-2026-3381");
+
+/* ---------- Verify ---------- */
+var CERTS={
+ "USSMF-AS-2026-10482":{state:"valid",name:"Alex Rivera",disc:"Paragliding",cls:"Class 2 · Sport",date:"Valid until Oct 13, 2027"},
+ "USSMF-AS-2025-00731":{state:"expired",name:"Sam Patel",disc:"Skydiving",cls:"Class 1 · Elite",date:"Expired Sep 30, 2026"}
+};
+function renderVerify(id){
+  var c=CERTS[id],out=$("#verifyOut");
+  if(!c){out.innerHTML='<div class="vres t-coral"><span class="bubble">'+icon("i-x")+'</span><div><h4>Not found</h4><p>No certificate matches <code>'+esc(id)+'</code>. Ask the athlete to check the ID or contact info@ussmf.org.</p></div></div>';return}
+  var ok=c.state==="valid";
+  out.innerHTML='<div class="vres '+(ok?"t-mint":"t-sun")+'"><span class="bubble">'+icon(ok?"i-check":"i-clock")+'</span><div><h4>'+(ok?"Valid certificate":"Expired certificate")+'</h4><p><b>'+esc(c.name)+'</b> · '+esc(c.disc)+' · '+esc(c.cls)+'<br>'+esc(c.date)+'</p></div></div>';
+}
+$("#verifyForm").addEventListener("submit",function(e){
+  e.preventDefault();var inp=$("#vId"),v=inp.value.trim().toUpperCase();inp.value=v;
+  if(!/^USSMF-AS-\d{4}-\d{5}$/.test(v)){$("#vErr").textContent="Certificate IDs look like USSMF-AS-2026-10482.";inp.classList.add("bad");$("#verifyOut").innerHTML="";return}
+  $("#vErr").textContent="";inp.classList.remove("bad");renderVerify(v);
+});
+$$("[data-v]").forEach(function(b){if(b.closest(".samples"))b.addEventListener("click",function(){$("#vId").value=b.getAttribute("data-v");$("#verifyForm").requestSubmit()})});
+renderVerify("USSMF-AS-2026-10482");
+$("#dlBtn").addEventListener("click",function(){toast("PDF downloads open when the certification portal launches.","i-download")});
+$("#shareBtn").addEventListener("click",function(){copyText("https://ussmf.org/#verify","Verification link")});
+
+/* ---------- Testimonials ---------- */
+var tcar=$("#tcar"),tcards=$$(".tcard",tcar),tdots=$("#tdots"),tIdx=0,tTimer;
+tdots.innerHTML=tcards.map(function(_,i){return '<button aria-label="Show testimonial '+(i+1)+'"'+(i===0?' aria-current="true"':"")+'></button>'}).join("");
+function goT(i){tIdx=(i+tcards.length)%tcards.length;tcar.scrollTo({left:tcards[tIdx].offsetLeft-tcar.offsetLeft-6,behavior:reduce?"auto":"smooth"})}
+$$("button",tdots).forEach(function(b,i){b.addEventListener("click",function(){goT(i);restartT()})});
+$("#tPrev").addEventListener("click",function(){goT(tIdx-1);restartT()});
+$("#tNext").addEventListener("click",function(){goT(tIdx+1);restartT()});
+tcar.addEventListener("scroll",function(){
+  var best=0,bd=1e9;tcards.forEach(function(c,i){var d=Math.abs(c.offsetLeft-tcar.offsetLeft-6-tcar.scrollLeft);if(d<bd){bd=d;best=i}});
+  tIdx=best;$$("button",tdots).forEach(function(b,i){b.setAttribute("aria-current",i===best)});
+},{passive:true});
+function restartT(){clearInterval(tTimer);if(!reduce)tTimer=setInterval(function(){goT(tIdx+1)},5500)}
+restartT();
+var drag=null;
+tcar.addEventListener("pointerdown",function(e){if(e.pointerType!=="mouse")return;drag={x:e.clientX,s:tcar.scrollLeft};tcar.classList.add("drag");clearInterval(tTimer)});
+addEventListener("pointermove",function(e){if(drag)tcar.scrollLeft=drag.s-(e.clientX-drag.x)});
+addEventListener("pointerup",function(){if(drag){drag=null;tcar.classList.remove("drag");goT(tIdx);restartT()}});
+
+/* ---------- Allied network lines ---------- */
+var net=$("#net"),netLines=$("#netLines");
+function drawNet(){
+  if(innerWidth<=900){netLines.innerHTML="";return}
+  var nr=net.getBoundingClientRect(),h=$("#hub").getBoundingClientRect(),L=$("#nodeL").getBoundingClientRect(),R=$("#nodeR").getBoundingClientRect();
+  var hx=h.left-nr.left+h.width/2,hy=h.top-nr.top+h.height/2;
+  var lx=L.right-nr.left-10,ly=L.top-nr.top+L.height/2,rx=R.left-nr.left+10,ry=R.top-nr.top+R.height/2;
+  netLines.setAttribute("viewBox","0 0 "+nr.width+" "+nr.height);
+  var p1="M"+lx+" "+ly+" C"+(lx+60)+" "+(ly-70)+" "+(hx-90)+" "+(hy-70)+" "+(hx-h.width/2+8)+" "+hy;
+  var p2="M"+rx+" "+ry+" C"+(rx-60)+" "+(ry+70)+" "+(hx+90)+" "+(hy+70)+" "+(hx+h.width/2-8)+" "+hy;
+  var seg=function(id,d,col,dur){return '<path id="'+id+'" d="'+d+'" fill="none" stroke="'+col+'" stroke-width="3" stroke-dasharray="4 10" stroke-linecap="round" opacity=".6">'+(reduce?"":'<animate attributeName="stroke-dashoffset" from="0" to="-56" dur="2s" repeatCount="indefinite"/>')+'</path>'+(reduce?"":'<circle r="6" fill="'+col+'"><animateMotion dur="'+dur+'s" repeatCount="indefinite"><mpath href="#'+id+'"/></animateMotion></circle><circle r="4" fill="#fff" stroke="'+col+'" stroke-width="2"><animateMotion dur="'+dur+'s" begin="-1.6s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#'+id+'"/></animateMotion></circle>')};
+  netLines.innerHTML=seg("netA",p1,"#3B82F6",3.2)+seg("netB",p2,"#FF7A6B",3.6);
+}
+var rT;addEventListener("resize",function(){clearTimeout(rT);rT=setTimeout(drawNet,120)});
+drawNet();setTimeout(drawNet,1200);
+
+/* ---------- Join + contact ---------- */
+var emailOk=function(v){return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v)};
+$("#joinForm").addEventListener("submit",function(e){
+  e.preventDefault();var v=$("#joinEmail").value.trim();
+  if(!emailOk(v)){$("#joinErr").textContent="Enter a valid email address, like name@example.com.";return}
+  $("#joinBox").innerHTML='<div class="join-ok">'+icon("i-check")+'<span>You’re on the list. We’ll email '+esc(v)+' at launch.</span></div>';
+});
+function fieldErr(inp,msg){var e=inp.closest(".field").querySelector(".err");if(e)e.textContent=msg||"";inp.classList.toggle("bad",!!msg);return !msg}
+$("#contactForm").addEventListener("submit",function(e){
+  e.preventDefault();
+  var ok=fieldErr($("#cName"),$("#cName").value.trim().length<2?"Enter your name.":"");
+  ok=fieldErr($("#cEmail"),emailOk($("#cEmail").value.trim())?"":"Enter a valid email address.")&&ok;
+  ok=fieldErr($("#cMsg"),$("#cMsg").value.trim().length<10?"Write a short message, at least 10 characters.":"")&&ok;
+  if(!ok)return;
+  this.reset();toast("Message ready. Contact forms connect at launch; for now email info@ussmf.org.","i-mail");
+});
+
+/* ---------- Application modal ---------- */
+var STATES=["Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","District of Columbia","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico","New York","North Carolina","North Dakota","Ohio","Oklahoma","Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"];
+$("#aState").insertAdjacentHTML("beforeend",STATES.map(function(s){return"<option>"+s+"</option>"}).join(""));
+$("#aDisc").insertAdjacentHTML("beforeend",DISC.map(function(d){return"<option>"+d.name+"</option>"}).join(""));
+var CONDS=["None","Heart or blood pressure","Asthma or respiratory","Epilepsy or seizures","Vision correction","Hearing or inner ear","Diabetes","Back or spine","Prior concussion","Other"];
+$("#condChips").innerHTML=CONDS.map(function(c,i){return '<label><input type="checkbox" value="'+c+'" id="cond'+i+'"><span>'+c+'</span></label>'}).join("");
+$("#condChips").addEventListener("change",function(e){
+  var t=e.target;if(!t.checked)return;
+  if(t.value==="None")$$("input",this).forEach(function(i){if(i!==t)i.checked=false});else $("#cond0").checked=false;
+  $("#condErr").textContent="";
+});
+
+var modal=$("#applyModal"),form=$("#applyForm"),step=1,lastFocus=null;
+var DRAFT_KEY="ussmf-apply-draft",draftFields=["aName","aDob","aEmail","aPhone","aState","aDisc","aLevel","aFed","aMem","aYears","aMeds","aInj","aLast"];
+function openApply(){
+  lastFocus=doc.activeElement;if(!mnav.hidden)closeMnav();
+  var d=store(DRAFT_KEY);if(d)draftFields.forEach(function(id){if(d[id]!=null)$("#"+id).value=d[id]});
+  $("#aYearsOut").textContent=$("#aYears").value+" yrs";
+  if(step===6)resetApply();
+  modal.hidden=false;doc.body.style.overflow="hidden";showStep(step);
+  setTimeout(function(){var f=$('.m-step:not([hidden]) .inp',modal);(f||$("[data-close].round",modal)).focus()},60);
+}
+function closeApply(){modal.hidden=true;doc.body.style.overflow="";if(lastFocus&&lastFocus.focus)lastFocus.focus()}
+$$("[data-open-apply]").forEach(function(b){b.addEventListener("click",function(e){e.preventDefault();openApply()})});
+$$("[data-close]",modal).forEach(function(b){b.addEventListener("click",closeApply)});
+doc.addEventListener("keydown",function(e){
+  if(e.key==="Escape"){if(!modal.hidden)closeApply();else if(!mnav.hidden)closeMnav()}
+  if(e.key==="Tab"&&!modal.hidden){
+    var f=$$('button:not([disabled]),input,select,textarea,[tabindex="0"]',modal.querySelector(".modal-card")).filter(function(x){return x.offsetParent!==null&&!x.closest("[hidden]")});
+    if(!f.length)return;var first=f[0],last=f[f.length-1];
+    if(e.shiftKey&&doc.activeElement===first){last.focus();e.preventDefault()}else if(!e.shiftKey&&doc.activeElement===last){first.focus();e.preventDefault()}
+  }
+});
+var savedT;
+form.addEventListener("input",function(e){
+  if(draftFields.indexOf(e.target.id)<0)return;
+  var d={};draftFields.forEach(function(id){d[id]=$("#"+id).value});store(DRAFT_KEY,d);
+  var s=$("#saved");s.hidden=false;clearTimeout(savedT);savedT=setTimeout(function(){s.hidden=true},1800);
+  if(e.target.classList.contains("bad"))fieldErr(e.target,"");
+});
+$("#aYears").addEventListener("input",function(){$("#aYearsOut").textContent=this.value+" yrs"});
+$("#aPhoto").addEventListener("change",function(){
+  var f=this.files&&this.files[0];if(!f)return;if(!/^image\//.test(f.type)){toast("Choose an image file for your photo.","i-alert");return}
+  var r=new FileReader();r.onload=function(){$("#photoPrev").innerHTML='<img alt="Your photo" src="'+r.result+'">'};r.readAsDataURL(f);
+});
+
+function showStep(n){
+  step=n;
+  $$(".m-step",form).forEach(function(s){s.hidden=+s.getAttribute("data-step")!==n});
+  $("#pbar").style.width=(n>=6?100:n*20-6)+"%";
+  $$("span",$("#stepsMini")).forEach(function(s,i){s.className=i+1<n?"ok":i+1===n?"on":""});
+  $("#backBtn").style.visibility=n===1?"hidden":"visible";
+  $("#mFoot").hidden=n===6;
+  $("#nextBtn").innerHTML=n===5?"Submit application "+icon("i-check"):"Continue "+icon("i-arrow","arrow");
+  if(n===5){buildSummary();setTimeout(sizeSig,30)}
+  $(".modal-card",modal).scrollTop=0;
+}
+function validate(n){
+  var ok=true,v=function(id){return $("#"+id).value.trim()};
+  if(n===1){
+    ok=fieldErr($("#aName"),v("aName").length<3?"Enter your full legal name.":"")&&ok;
+    var dob=new Date(v("aDob")),age=(Date.now()-dob)/31557600000;
+    ok=fieldErr($("#aDob"),!v("aDob")?"Enter your date of birth.":(age<10||age>100)?"Applicants must be between 10 and 100 years old.":"")&&ok;
+    ok=fieldErr($("#aEmail"),emailOk(v("aEmail"))?"":"Enter a valid email address, like name@example.com.")&&ok;
+    ok=fieldErr($("#aPhone"),v("aPhone").replace(/\D/g,"").length<7?"Enter a phone number with at least 7 digits.":"")&&ok;
+    ok=fieldErr($("#aState"),v("aState")?"":"Select your state.")&&ok;
+  }
+  if(n===2){
+    ok=fieldErr($("#aDisc"),v("aDisc")?"":"Select your primary discipline.")&&ok;
+    ok=fieldErr($("#aLevel"),v("aLevel")?"":"Select your level.")&&ok;
+  }
+  if(n===3){
+    if(!$$("#condChips input:checked").length){$("#condErr").textContent="Select at least one option, or “None”.";ok=false}
+    var last=new Date(v("aLast"));
+    ok=fieldErr($("#aLast"),!v("aLast")?"Enter the date of your last physical.":last>new Date()?"This date is in the future.":"")&&ok;
+  }
+  if(n===4){
+    var done=files.filter(function(f){return f.done}).length;
+    if(!files.length){$("#fileErr").textContent="Upload at least one medical record.";ok=false}
+    else if(done<files.length){$("#fileErr").textContent="Wait for uploads to finish.";ok=false}
+    else $("#fileErr").textContent="";
+  }
+  if(n===5){
+    var all=$("#c1").checked&&$("#c2").checked&&$("#c3").checked;
+    $("#consentErr").textContent=all?"":"Tick all three boxes to continue.";ok=all&&ok;
+    $("#sigErr").textContent=sigInk?"":"Add your signature.";ok=sigInk&&ok;
+  }
+  if(!ok){var b=$('.m-step:not([hidden]) .bad',form);if(b)b.focus()}
+  return ok;
+}
+$("#nextBtn").addEventListener("click",function(){
+  if(!validate(step))return;
+  if(step<5)showStep(step+1);else submitApp();
+});
+$("#backBtn").addEventListener("click",function(){if(step>1)showStep(step-1)});
+
+/* files */
+var files=[],drop=$("#drop"),fileList=$("#fileList");
+function addFiles(list){
+  Array.prototype.forEach.call(list,function(f){
+    if(!/pdf|jpe?g|png/i.test(f.type+f.name)){toast(f.name+" is not a PDF, JPG or PNG.","i-alert");return}
+    if(f.size>10*1024*1024){toast(f.name+" is larger than 10 MB.","i-alert");return}
+    var item={name:f.name,size:f.size,done:false};files.push(item);renderFile(item);
+  });
+  $("#fileErr").textContent="";
+}
+function renderFile(item){
+  var el=doc.createElement("div");el.className="fchip t-blue";
+  el.innerHTML='<span class="bubble">'+icon(/pdf/i.test(item.name)?"i-file":"i-doc")+'</span><div class="fn"><b>'+esc(item.name)+'</b><span>'+(item.size/1024>1024?(item.size/1048576).toFixed(1)+" MB":Math.max(1,Math.round(item.size/1024))+" KB")+' · <i>Uploading…</i></span></div><svg class="fring" viewBox="0 0 30 30"><circle class="bg" cx="15" cy="15" r="12"/><circle class="fg" cx="15" cy="15" r="12" stroke-dashoffset="75.4"/></svg><button type="button" class="xbtn" aria-label="Remove '+esc(item.name)+'">'+icon("i-x")+'</button>';
+  fileList.appendChild(el);
+  var ring=$(".fg",el),p=0,t=setInterval(function(){
+    p=Math.min(1,p+.08+Math.random()*.12);ring.setAttribute("stroke-dashoffset",(75.4*(1-p)).toFixed(1));
+    if(p>=1){clearInterval(t);item.done=true;$(".fring",el).classList.add("done");$("i",el).textContent="Encrypted & uploaded"}
+  },140);
+  $(".xbtn",el).addEventListener("click",function(){clearInterval(t);files.splice(files.indexOf(item),1);el.remove()});
+}
+$("#aFiles").addEventListener("change",function(){addFiles(this.files);this.value=""});
+["dragenter","dragover"].forEach(function(ev){drop.addEventListener(ev,function(e){e.preventDefault();drop.classList.add("over")})});
+["dragleave","drop"].forEach(function(ev){drop.addEventListener(ev,function(e){e.preventDefault();drop.classList.remove("over")})});
+drop.addEventListener("drop",function(e){if(e.dataTransfer)addFiles(e.dataTransfer.files)});
+$("#sampleFile").addEventListener("click",function(){var n=["Annual-physical-2026.pdf","Resting-ECG-report.pdf","Vision-test.png"][files.length%3];var it={name:n,size:240000+Math.round(Math.random()*900000),done:false};files.push(it);renderFile(it);$("#fileErr").textContent=""});
+
+/* summary */
+function buildSummary(){
+  var v=function(id){return $("#"+id).value.trim()||"—"},conds=$$("#condChips input:checked").map(function(i){return i.value}).join(", ")||"—";
+  var rows=[["Name",v("aName")],["Date of birth",v("aDob")],["Email",v("aEmail")],["State",v("aState")],["Discipline",v("aDisc")],["Level",v("aLevel")],["Federation",v("aFed")+(v("aMem")!=="—"?" · "+v("aMem"):"")],["Experience",$("#aYears").value+" years"],["Conditions",conds],["Documents",files.length+" file"+(files.length===1?"":"s")]];
+  $("#summary").innerHTML=rows.map(function(r){return"<div><small>"+r[0]+"</small><b>"+esc(r[1])+"</b></div>"}).join("");
+}
+
+/* signature */
+var sig=$("#sigCanvas"),sctx=sig.getContext("2d"),sigInk=false,drawing=false;
+function sizeSig(){var r=sig.getBoundingClientRect(),dpr=window.devicePixelRatio||1;if(!r.width)return;var img=sigInk?sig.toDataURL():null;sig.width=r.width*dpr;sig.height=r.height*dpr;sctx.scale(dpr,dpr);sctx.lineCap="round";sctx.lineJoin="round";sctx.lineWidth=2.6;sctx.strokeStyle="#1E3A8A";if(img){var im=new Image();im.onload=function(){sctx.drawImage(im,0,0,r.width,r.height)};im.src=img}}
+function sp(e){var r=sig.getBoundingClientRect();return{x:e.clientX-r.left,y:e.clientY-r.top}}
+sig.addEventListener("pointerdown",function(e){drawing=true;sig.setPointerCapture(e.pointerId);var p=sp(e);sctx.beginPath();sctx.moveTo(p.x,p.y);$(".sigpad .ph").style.opacity="0"});
+sig.addEventListener("pointermove",function(e){if(!drawing)return;var p=sp(e);sctx.lineTo(p.x,p.y);sctx.stroke();sigInk=true;$("#sigErr").textContent=""});
+sig.addEventListener("pointerup",function(){drawing=false});
+$("#sigClear").addEventListener("click",function(){sctx.clearRect(0,0,sig.width,sig.height);sigInk=false;$(".sigpad .ph").style.opacity="1"});
+addEventListener("resize",function(){if(!modal.hidden&&step===5)sizeSig()});
+
+function submitApp(){
+  var id="USSMF-APP-2026-"+String(1000+Math.floor(Math.random()*8999));
+  APPS[id]={name:$("#aName").value.trim(),disc:$("#aDisc").value,stage:0,dates:[],note:"Records check usually takes 1–2 business days."};
+  $("#appId").textContent=id;store(DRAFT_KEY,null);showStep(6);confetti();
+  $("#goTrack").onclick=function(){closeApply();$("#stId").value=id;$("#statusForm").requestSubmit();$("#status").scrollIntoView({behavior:reduce?"auto":"smooth",block:"center"})};
+}
+function resetApply(){
+  form.reset();files=[];fileList.innerHTML="";sigInk=false;sctx.clearRect(0,0,sig.width,sig.height);$(".sigpad .ph").style.opacity="1";
+  $("#photoPrev").innerHTML=icon("i-user");$$(".err",form).forEach(function(e){e.textContent=""});$$(".bad",form).forEach(function(e){e.classList.remove("bad")});step=1;
+}
+
+/* ---------- Confetti ---------- */
+function confetti(){
+  if(reduce)return;
+  var c=$("#confetti"),ctx=c.getContext("2d"),dpr=window.devicePixelRatio||1;c.width=innerWidth*dpr;c.height=innerHeight*dpr;ctx.scale(dpr,dpr);
+  var cols=["#3B82F6","#FF7A6B","#34D399","#FFC857","#A78BFA","#60A5FA"],P=[];
+  for(var i=0;i<160;i++)P.push({x:innerWidth/2+(Math.random()-.5)*120,y:innerHeight*.42,vx:(Math.random()-.5)*16,vy:-Math.random()*15-5,r:Math.random()*6+4,c:cols[i%cols.length],a:Math.random()*6,va:(Math.random()-.5)*.3,s:Math.random()<.5});
+  var t0=performance.now();
+  (function f(t){
+    ctx.clearRect(0,0,innerWidth,innerHeight);var alive=t-t0<3200;
+    P.forEach(function(p){p.vy+=.38;p.vx*=.99;p.x+=p.vx;p.y+=p.vy;p.a+=p.va;ctx.save();ctx.translate(p.x,p.y);ctx.rotate(p.a);ctx.fillStyle=p.c;ctx.globalAlpha=Math.max(0,1-(t-t0)/3200);
+      if(p.s){ctx.beginPath();ctx.arc(0,0,p.r/2,0,7);ctx.fill()}else{ctx.fillRect(-p.r/2,-p.r/4,p.r,p.r/2)}ctx.restore()});
+    if(alive)requestAnimationFrame(f);else ctx.clearRect(0,0,innerWidth,innerHeight);
+  })(t0);
+}
+
+onScroll();
+})();
+</script>
+
+</body>
+</html>
